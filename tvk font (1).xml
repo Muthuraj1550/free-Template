@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <ui_settings>
+    <left_panel collapsed="false" locked="false" password="" />
+    <object_tracker enabled="false" />
+  </ui_settings>
+  <groups>
+  </groups>
+  <objects>
+    <object uuid="b677b5ab-cf8c-4208-8970-f8273f10b83f" name="Text_564" type="text" gID="">
+      <color>16771584</color>
+      <pos x="4.704061549249999" y="-1.0330792088246525" z="8.479852114977556" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <offset x="0" y="0" z="-1.7243305883321902" />
+      <params>{"text":"TVK","size":"8","height":"1"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"text":null,"size":null,"height":null},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null},"font":null}</formulas>
+      <visible>true</visible>
+      <fontKey>yellowtail</fontKey>
+      <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
+    </object>
+    <object uuid="1f9056b6-0781-4a40-a524-11d662317e44" name="Link_STL_235" type="stl" gID="">
+      <color>16711680</color>
+      <pos x="0" y="0" z="0" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <offset x="0" y="0" z="0" />
+      <params>{}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{}}</formulas>
+      <visible>true</visible>
+      <fontKey>helvetiker</fontKey>
+      <stlUrl>https://raw.githubusercontent.com/Muthuraj1550/3d/92058469544ba72b1a0118c8c245716dea900e0d/Whistle_with_8mmball_eye.STL</stlUrl>
+    </object>
+  </objects>
+  <pinnedGroups>
+  </pinnedGroups>
+  <pinned>
+    <pin id="b677b5ab-cf8c-4208-8970-f8273f10b83f-size-text" objUUID="b677b5ab-cf8c-4208-8970-f8273f10b83f" type="size" axis="text" label="NAME" groupId="" />
+    <pin id="b677b5ab-cf8c-4208-8970-f8273f10b83f-size-size" objUUID="b677b5ab-cf8c-4208-8970-f8273f10b83f" type="size" axis="size" label="size" groupId="" />
+    <pin id="b677b5ab-cf8c-4208-8970-f8273f10b83f-size-height" objUUID="b677b5ab-cf8c-4208-8970-f8273f10b83f" type="size" axis="height" label="Thicknes" groupId="" />
+    <pin id="b677b5ab-cf8c-4208-8970-f8273f10b83f-font" objUUID="b677b5ab-cf8c-4208-8970-f8273f10b83f" type="font" axis="fontKey" label="Font" groupId="" />
+  </pinned>
+  <trackedObjects>
+  </trackedObjects>
+  <trackedGroups>
+  </trackedGroups>
+  <hiddenSelectorLabel>Ticked Object Selector</hiddenSelectorLabel>
+  <objectDisplayNames>
+    <displayName uuid="b677b5ab-cf8c-4208-8970-f8273f10b83f" name="Text_564" />
+    <displayName uuid="1f9056b6-0781-4a40-a524-11d662317e44" name="Link_STL_235" />
+  </objectDisplayNames>
+  <registeredPlugins>
+  </registeredPlugins>
+</project>
