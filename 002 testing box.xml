@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <ui_settings>
+    <left_panel collapsed="true" locked="true" password="123" />
+  </ui_settings>
+  <groups>
+    <group id="GRP_1770697562285" name="Group 1" op="sub" />
+  </groups>
+  <objects>
+    <object uuid="3225e1b5-30ec-4ae3-a6f7-4fc21ae2f3cc" name="Box_226" type="box" gID="GRP_1770697562285">
+      <color>3718648</color>
+      <pos x="0" y="0" z="0" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <offset x="0" y="0" z="0" />
+      <params>{"w":"100","h":"50","d":"150"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"h":null,"d":null,"w":null}}</formulas>
+      <visible>false</visible>
+      <fontKey>helvetiker</fontKey>
+    </object>
+    <object uuid="56c4bd6c-38b8-4081-9fc2-4304a13915b2" name="Box_861" type="box" gID="GRP_1770697562285">
+      <color>16711680</color>
+      <pos x="0" y="10" z="0" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <offset x="0" y="0" z="0" />
+      <params>{"w":90,"h":40,"d":140}</params>
+      <formulas>{"pos":{"x":null,"y":"=Box_660.dw","z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"w":"=Box_226.dw-Box_660.dw","h":"=Box_226.dh-Box_660.dw","d":"=Box_226.dd-Box_660.dw"}}</formulas>
+      <visible>false</visible>
+      <fontKey>helvetiker</fontKey>
+    </object>
+    <object uuid="80b6bd9c-8202-423b-a54d-8144f8bc4084" name="Box_660" type="box" gID="">
+      <color>3718648</color>
+      <pos x="126.26937308420099" y="0" z="0" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <offset x="0" y="0" z="0" />
+      <params>{"w":"10","h":50,"d":50}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"w":null}}</formulas>
+      <visible>false</visible>
+      <fontKey>helvetiker</fontKey>
+    </object>
+    <object uuid="d8490b2e-af1f-4647-ba3b-2bfb52216112" name="Text_629" type="text" gID="">
+      <color>16211807</color>
+      <pos x="-50" y="0" z="0" />
+      <rot x="0" y="-1.5707963267948966" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <offset x="0" y="0" z="0" />
+      <params>{"text":"My 3D Gifts","size":"18","height":"3"}</params>
+      <formulas>{"pos":{"x":"=-Box_226.dw/2","y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":null,"height":null},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
+      <visible>true</visible>
+      <fontKey>yellowtail</fontKey>
+      <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
+    </object>
+  </objects>
+  <pinned>
+    <pin id="80b6bd9c-8202-423b-a54d-8144f8bc4084-size-w" objUUID="80b6bd9c-8202-423b-a54d-8144f8bc4084" type="size" axis="w" label="thickness" />
+    <pin id="3225e1b5-30ec-4ae3-a6f7-4fc21ae2f3cc-size-w" objUUID="3225e1b5-30ec-4ae3-a6f7-4fc21ae2f3cc" type="size" axis="w" label="Box w" />
+    <pin id="3225e1b5-30ec-4ae3-a6f7-4fc21ae2f3cc-size-h" objUUID="3225e1b5-30ec-4ae3-a6f7-4fc21ae2f3cc" type="size" axis="h" label="Box h" />
+    <pin id="3225e1b5-30ec-4ae3-a6f7-4fc21ae2f3cc-size-d" objUUID="3225e1b5-30ec-4ae3-a6f7-4fc21ae2f3cc" type="size" axis="d" label="Box d" />
+    <pin id="d8490b2e-af1f-4647-ba3b-2bfb52216112-size-text" objUUID="d8490b2e-af1f-4647-ba3b-2bfb52216112" type="size" axis="text" label="text" />
+    <pin id="d8490b2e-af1f-4647-ba3b-2bfb52216112-size-size" objUUID="d8490b2e-af1f-4647-ba3b-2bfb52216112" type="size" axis="size" label="size" />
+    <pin id="d8490b2e-af1f-4647-ba3b-2bfb52216112-size-height" objUUID="d8490b2e-af1f-4647-ba3b-2bfb52216112" type="size" axis="height" label="Text Thickness" />
+  </pinned>
+</project>
