@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <ui_settings>
+    <left_panel collapsed="false" locked="false" password="" />
+    <object_tracker enabled="false" />
+    <transform_space value="local" />
+    <drag_locked value="false" />
+  </ui_settings>
+  <camera px="-4.573576739203633" py="14.393591791674723" pz="55.46045443852336" tx="-0.604638282111316" ty="3.7250771719047338" tz="13.558493305874576" />
+  <groups>
+    <group id="GRP_1777520433638" name="Group 1" op="sub" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
+  </groups>
+  <topLevelOrder>
+    <entry type="layer" uuid="30af17fa-ff96-431d-a436-b70dde197a60" />
+    <entry type="group" id="GRP_1777520433638" />
+  </topLevelOrder>
+  <childOrder groupId="GRP_1777520433638">
+    <entry type="layer" uuid="cb831442-04ea-493e-b0d3-48f50257fc39" />
+    <entry type="layer" uuid="ce3107d7-5105-4d48-9596-28d5afeab6e4" />
+    <entry type="layer" uuid="3c0c68ec-f20f-458b-9344-bf60631f6723" />
+  </childOrder>
+  <objects>
+    <object uuid="cb831442-04ea-493e-b0d3-48f50257fc39" name="Text_548" type="text" gID="GRP_1777520433638" order="0">
+      <color>16777215</color>
+      <pos x="0" y="0" z="0" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{"text":"P","size":"70","height":5}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":null},"font":null,"extrude":{"amount":null},"array":{},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
+      <visible>false</visible>
+      <locked>false</locked>
+      <fontKey>cinzel_canvas</fontKey>
+      <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
+    </object>
+    <object uuid="30af17fa-ff96-431d-a436-b70dde197a60" name="Tamil_183" type="text" gID="" order="1">
+      <color>16777215</color>
+      <pos x="0" y="-2.119373731329613" z="2.202821926058739" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{"text":"priya","size":"25","height":3}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":null,"height":null},"font":null,"extrude":{"amount":null},"array":{},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
+      <visible>true</visible>
+      <locked>false</locked>
+      <fontKey>great_vibes_canvas</fontKey>
+      <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
+      <offsetLayerId>ce3107d7-5105-4d48-9596-28d5afeab6e4</offsetLayerId>
+    </object>
+    <object uuid="3c0c68ec-f20f-458b-9344-bf60631f6723" name="Tamil_183_Dup_222" type="text" gID="GRP_1777520433638" order="2">
+      <color>16777215</color>
+      <pos x="0" y="-2.119373731329613" z="2.202821926058739" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{"text":"priya","size":"25","height":3}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":null,"height":null,"text":"=Tamil_183.Tt"},"font":null,"extrude":{"amount":null},"array":{},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
+      <visible>false</visible>
+      <locked>false</locked>
+      <fontKey>great_vibes_canvas</fontKey>
+      <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
+    </object>
+    <object uuid="ce3107d7-5105-4d48-9596-28d5afeab6e4" name="Tamil_183_Offset" type="offset" gID="GRP_1777520433638" order="3">
+      <color>5592405</color>
+      <pos x="0" y="-2.119373731329613" z="2.202821926058739" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{"text":"priya","size":"25","height":4}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{},"font":null,"offset":{"offsetAmount":null,"offsetDepth":null},"array":{},"extrude":{}}</formulas>
+      <visible>false</visible>
+      <locked>false</locked>
+      <fontKey>great_vibes_canvas</fontKey>
+      <isOffsetLayer>true</isOffsetLayer>
+      <parentTextUUID>30af17fa-ff96-431d-a436-b70dde197a60</parentTextUUID>
+      <parentText>priya</parentText>
+      <parentSize>25</parentSize>
+      <offsetAmount>0.3</offsetAmount>
+      <offsetDepth>4</offsetDepth>
+      <parentBend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</parentBend>
+    </object>
+  </objects>
+  <pinnedGroups>
+  </pinnedGroups>
+  <pinned>
+    <pin id="30af17fa-ff96-431d-a436-b70dde197a60-size-text" objUUID="30af17fa-ff96-431d-a436-b70dde197a60" type="size" axis="text" label="Full naem Small" groupId="" />
+    <pin id="cb831442-04ea-493e-b0d3-48f50257fc39-size-text" objUUID="cb831442-04ea-493e-b0d3-48f50257fc39" type="size" axis="text" label="Capital 1st letter" groupId="" />
+  </pinned>
+  <trackedObjects>
+  </trackedObjects>
+  <trackedGroups>
+  </trackedGroups>
+  <hiddenSelectorLabel>Ticked Object Selector</hiddenSelectorLabel>
+  <objectDisplayNames>
+    <displayName uuid="cb831442-04ea-493e-b0d3-48f50257fc39" name="Text_548" />
+    <displayName uuid="30af17fa-ff96-431d-a436-b70dde197a60" name="Tamil_183" />
+    <displayName uuid="3c0c68ec-f20f-458b-9344-bf60631f6723" name="Tamil_183_Dup_222" />
+    <displayName uuid="ce3107d7-5105-4d48-9596-28d5afeab6e4" name="Tamil_183_Offset" />
+  </objectDisplayNames>
+  <registeredPlugins>
+  </registeredPlugins>
+</project>
