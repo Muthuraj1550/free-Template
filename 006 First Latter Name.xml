@@ -6,7 +6,7 @@
     <transform_space value="local" />
     <drag_locked value="false" />
   </ui_settings>
-  <camera px="31.978722361759555" py="29.752901001793" pz="109.2850151662762" tx="6.82354286068777" ty="-3.839719326511073" tz="14.295778049747371" />
+  <camera px="-7.30401890681426" py="17.336515008388353" pz="145.0918808811696" tx="5.317623536134592" ty="1.4653709550577205" tz="12.42542788789614" />
   <groups>
     <group id="GRP_1777520433638" name="Group 1" op="sub" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
   </groups>
@@ -21,14 +21,14 @@
   </childOrder>
   <objects>
     <object uuid="cb831442-04ea-493e-b0d3-48f50257fc39" name="Text_548" type="text" gID="GRP_1777520433638" order="0">
-      <color>16777215</color>
+      <color>15860354</color>
       <pos x="0" y="0" z="0" />
       <rot x="0" y="0" z="0" />
       <sca x="1" y="1" z="1" />
       <uniformScale>true</uniformScale>
       <extrude enabled="false" axis="+Y" amount="0" />
       <offset x="0" y="0" z="0" />
-      <params>{"text":"R","size":"70","height":5}</params>
+      <params>{"text":"P","size":"70","height":5}</params>
       <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":null,"text":null},"font":null,"extrude":{"amount":null},"array":{},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
       <visible>false</visible>
       <locked>false</locked>
