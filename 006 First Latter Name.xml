@@ -6,7 +6,7 @@
     <transform_space value="local" />
     <drag_locked value="false" />
   </ui_settings>
-  <camera px="-7.30401890681426" py="17.336515008388353" pz="145.0918808811696" tx="5.317623536134592" ty="1.4653709550577205" tz="12.42542788789614" />
+  <camera px="-3.01455876521627" py="14.132915443941588" pz="87.24160655018551" tx="5.317623536134592" ty="1.4653709550577205" tz="12.42542788789614" />
   <groups>
     <group id="GRP_1777520433638" name="Group 1" op="sub" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
   </groups>
@@ -20,7 +20,7 @@
     <entry type="layer" uuid="3c0c68ec-f20f-458b-9344-bf60631f6723" />
   </childOrder>
   <objects>
-    <object uuid="cb831442-04ea-493e-b0d3-48f50257fc39" name="Text_548" type="text" gID="GRP_1777520433638" order="0">
+    <object uuid="cb831442-04ea-493e-b0d3-48f50257fc39" name="Big capital letter" type="text" gID="GRP_1777520433638" order="0">
       <color>15860354</color>
       <pos x="0" y="0" z="0" />
       <rot x="0" y="0" z="0" />
@@ -35,9 +35,9 @@
       <fontKey>gentilisb</fontKey>
       <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
     </object>
-    <object uuid="30af17fa-ff96-431d-a436-b70dde197a60" name="Tamil_183" type="text" gID="" order="1">
+    <object uuid="30af17fa-ff96-431d-a436-b70dde197a60" name="small full name" type="text" gID="" order="1">
       <color>16777215</color>
-      <pos x="-4.196965613963229" y="-1.0788326074645798" z="2.202821926058739" />
+      <pos x="-4.196965613963229" y="-3.0499518496950078" z="2.202821926058739" />
       <rot x="0" y="0" z="0" />
       <sca x="1" y="1" z="1" />
       <uniformScale>true</uniformScale>
@@ -53,13 +53,13 @@
     </object>
     <object uuid="3c0c68ec-f20f-458b-9344-bf60631f6723" name="Tamil_183_Dup_222" type="text" gID="GRP_1777520433638" order="2">
       <color>16777215</color>
-      <pos x="-4.196965613963229" y="-1.0788326074645798" z="2.202821926058739" />
+      <pos x="0" y="0" z="0" />
       <rot x="0" y="0" z="0" />
-      <sca x="1" y="1" z="1" />
+      <sca x="0" y="0" z="0" />
       <uniformScale>true</uniformScale>
       <extrude enabled="false" axis="+Y" amount="0" />
       <offset x="0" y="0" z="0" />
-      <params>{"text":"priya","size":"25","height":3}</params>
+      <params>{"text":"Tamil_183.Tt","size":"25","height":3}</params>
       <formulas>{"pos":{"x":"=Tamil_183.Mx","y":"=Tamil_183.My","z":"=Tamil_183.Mz"},"rot":{"x":null,"y":null,"z":null},"sca":{"x":"=Tamil_183.Sx","y":null,"z":null},"size":{"size":null,"height":null,"text":"=Tamil_183.Tt"},"font":"=Tamil_183.Ff","extrude":{"amount":null},"array":{},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
       <visible>false</visible>
       <locked>false</locked>
@@ -68,19 +68,19 @@
     </object>
     <object uuid="ce3107d7-5105-4d48-9596-28d5afeab6e4" name="Tamil_183_Offset" type="offset" gID="GRP_1777520433638" order="3">
       <color>5592405</color>
-      <pos x="-4.196965613963229" y="-1.0788326074645798" z="2.202821926058739" />
+      <pos x="0" y="0" z="0" />
       <rot x="0" y="0" z="0" />
-      <sca x="1" y="1" z="1" />
+      <sca x="0" y="0" z="0" />
       <uniformScale>true</uniformScale>
       <offset x="0" y="0" z="0" />
-      <params>{"text":"priya","size":"25","height":4}</params>
+      <params>{"text":"Tamil_183.Tt","size":"25","height":4}</params>
       <formulas>{"pos":{"x":"=Tamil_183.Mx","y":"=Tamil_183.My","z":"=Tamil_183.Mz"},"rot":{"x":null,"y":null,"z":null},"sca":{"x":"=Tamil_183.Sx","y":"=Tamil_183.Sx","z":"=Tamil_183.Sx"},"size":{"text":"=Tamil_183.Tt"},"font":"=Tamil_183.Ff","offset":{"offsetAmount":null,"offsetDepth":null},"array":{},"extrude":{}}</formulas>
       <visible>false</visible>
       <locked>false</locked>
       <fontKey>great_vibes_canvas</fontKey>
       <isOffsetLayer>true</isOffsetLayer>
       <parentTextUUID>30af17fa-ff96-431d-a436-b70dde197a60</parentTextUUID>
-      <parentText>priya</parentText>
+      <parentText>Tamil_183.Tt</parentText>
       <parentSize>25</parentSize>
       <offsetAmount>0.3</offsetAmount>
       <offsetDepth>4</offsetDepth>
@@ -101,8 +101,8 @@
   </trackedGroups>
   <hiddenSelectorLabel>Ticked Object Selector</hiddenSelectorLabel>
   <objectDisplayNames>
-    <displayName uuid="cb831442-04ea-493e-b0d3-48f50257fc39" name="Text_548" />
-    <displayName uuid="30af17fa-ff96-431d-a436-b70dde197a60" name="Tamil_183" />
+    <displayName uuid="cb831442-04ea-493e-b0d3-48f50257fc39" name="Big capital letter" />
+    <displayName uuid="30af17fa-ff96-431d-a436-b70dde197a60" name="small full name" />
     <displayName uuid="3c0c68ec-f20f-458b-9344-bf60631f6723" name="Tamil_183_Dup_222" />
     <displayName uuid="ce3107d7-5105-4d48-9596-28d5afeab6e4" name="Tamil_183_Offset" />
   </objectDisplayNames>
