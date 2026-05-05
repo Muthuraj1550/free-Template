@@ -6,7 +6,7 @@
     <transform_space value="local" />
     <drag_locked value="false" />
   </ui_settings>
-  <camera px="-4.573576739203633" py="14.393591791674723" pz="55.46045443852336" tx="-0.604638282111316" ty="3.7250771719047338" tz="13.558493305874576" />
+  <camera px="31.978722361759555" py="29.752901001793" pz="109.2850151662762" tx="6.82354286068777" ty="-3.839719326511073" tz="14.295778049747371" />
   <groups>
     <group id="GRP_1777520433638" name="Group 1" op="sub" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
   </groups>
@@ -25,26 +25,26 @@
       <pos x="0" y="0" z="0" />
       <rot x="0" y="0" z="0" />
       <sca x="1" y="1" z="1" />
-      <uniformScale>false</uniformScale>
+      <uniformScale>true</uniformScale>
       <extrude enabled="false" axis="+Y" amount="0" />
       <offset x="0" y="0" z="0" />
-      <params>{"text":"P","size":"70","height":5}</params>
-      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":null},"font":null,"extrude":{"amount":null},"array":{},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
+      <params>{"text":"R","size":"70","height":5}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":null,"text":null},"font":null,"extrude":{"amount":null},"array":{},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
       <visible>false</visible>
       <locked>false</locked>
-      <fontKey>cinzel_canvas</fontKey>
+      <fontKey>gentilisb</fontKey>
       <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
     </object>
     <object uuid="30af17fa-ff96-431d-a436-b70dde197a60" name="Tamil_183" type="text" gID="" order="1">
       <color>16777215</color>
-      <pos x="0" y="-2.119373731329613" z="2.202821926058739" />
+      <pos x="-4.196965613963229" y="-1.0788326074645798" z="2.202821926058739" />
       <rot x="0" y="0" z="0" />
       <sca x="1" y="1" z="1" />
-      <uniformScale>false</uniformScale>
+      <uniformScale>true</uniformScale>
       <extrude enabled="false" axis="+Y" amount="0" />
       <offset x="0" y="0" z="0" />
       <params>{"text":"priya","size":"25","height":3}</params>
-      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":null,"height":null},"font":null,"extrude":{"amount":null},"array":{},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":null,"height":null,"text":null},"font":null,"extrude":{"amount":null},"array":{},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
       <visible>true</visible>
       <locked>false</locked>
       <fontKey>great_vibes_canvas</fontKey>
@@ -53,14 +53,14 @@
     </object>
     <object uuid="3c0c68ec-f20f-458b-9344-bf60631f6723" name="Tamil_183_Dup_222" type="text" gID="GRP_1777520433638" order="2">
       <color>16777215</color>
-      <pos x="0" y="-2.119373731329613" z="2.202821926058739" />
+      <pos x="-4.196965613963229" y="-1.0788326074645798" z="2.202821926058739" />
       <rot x="0" y="0" z="0" />
       <sca x="1" y="1" z="1" />
-      <uniformScale>false</uniformScale>
+      <uniformScale>true</uniformScale>
       <extrude enabled="false" axis="+Y" amount="0" />
       <offset x="0" y="0" z="0" />
       <params>{"text":"priya","size":"25","height":3}</params>
-      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":null,"height":null,"text":"=Tamil_183.Tt"},"font":null,"extrude":{"amount":null},"array":{},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
+      <formulas>{"pos":{"x":"=Tamil_183.Mx","y":"=Tamil_183.My","z":"=Tamil_183.Mz"},"rot":{"x":null,"y":null,"z":null},"sca":{"x":"=Tamil_183.Sx","y":null,"z":null},"size":{"size":null,"height":null,"text":"=Tamil_183.Tt"},"font":"=Tamil_183.Ff","extrude":{"amount":null},"array":{},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
       <visible>false</visible>
       <locked>false</locked>
       <fontKey>great_vibes_canvas</fontKey>
@@ -68,14 +68,13 @@
     </object>
     <object uuid="ce3107d7-5105-4d48-9596-28d5afeab6e4" name="Tamil_183_Offset" type="offset" gID="GRP_1777520433638" order="3">
       <color>5592405</color>
-      <pos x="0" y="-2.119373731329613" z="2.202821926058739" />
+      <pos x="-4.196965613963229" y="-1.0788326074645798" z="2.202821926058739" />
       <rot x="0" y="0" z="0" />
       <sca x="1" y="1" z="1" />
-      <uniformScale>false</uniformScale>
-      <extrude enabled="false" axis="+Y" amount="0" />
+      <uniformScale>true</uniformScale>
       <offset x="0" y="0" z="0" />
       <params>{"text":"priya","size":"25","height":4}</params>
-      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{},"font":null,"offset":{"offsetAmount":null,"offsetDepth":null},"array":{},"extrude":{}}</formulas>
+      <formulas>{"pos":{"x":"=Tamil_183.Mx","y":"=Tamil_183.My","z":"=Tamil_183.Mz"},"rot":{"x":null,"y":null,"z":null},"sca":{"x":"=Tamil_183.Sx","y":"=Tamil_183.Sx","z":"=Tamil_183.Sx"},"size":{"text":"=Tamil_183.Tt"},"font":"=Tamil_183.Ff","offset":{"offsetAmount":null,"offsetDepth":null},"array":{},"extrude":{}}</formulas>
       <visible>false</visible>
       <locked>false</locked>
       <fontKey>great_vibes_canvas</fontKey>
@@ -93,6 +92,8 @@
   <pinned>
     <pin id="30af17fa-ff96-431d-a436-b70dde197a60-size-text" objUUID="30af17fa-ff96-431d-a436-b70dde197a60" type="size" axis="text" label="Full naem Small" groupId="" />
     <pin id="cb831442-04ea-493e-b0d3-48f50257fc39-size-text" objUUID="cb831442-04ea-493e-b0d3-48f50257fc39" type="size" axis="text" label="Capital 1st letter" groupId="" />
+    <pin id="cb831442-04ea-493e-b0d3-48f50257fc39-scale-x" objUUID="cb831442-04ea-493e-b0d3-48f50257fc39" type="scale" axis="x" label="Big size" groupId="" />
+    <pin id="30af17fa-ff96-431d-a436-b70dde197a60-scale-x" objUUID="30af17fa-ff96-431d-a436-b70dde197a60" type="scale" axis="x" label="small size" groupId="" />
   </pinned>
   <trackedObjects>
   </trackedObjects>
