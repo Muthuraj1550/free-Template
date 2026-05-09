@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <ui_settings>
+    <left_panel collapsed="false" locked="false" password="" />
+    <object_tracker enabled="false" />
+    <transform_space value="local" />
+    <drag_locked value="false" />
+  </ui_settings>
+  <camera px="-1.8133322056786811" py="8.569103039114548" pz="86.53842176599996" tx="-6.072605728191209" ty="3.0955961587023015" tz="6.483442987810318" />
+  <groups>
+    <group id="GRP_1778207829955" name="Border" op="sub" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
+    <group id="GRP_1778294497575" name="Group 2" op="sub" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
+  </groups>
+  <topLevelOrder>
+    <entry type="layer" uuid="0d8c7167-cf43-463d-81ea-1a35b4d4ea98" />
+    <entry type="layer" uuid="3901385b-1fbe-4278-83a8-17db9adb6a9f" />
+    <entry type="layer" uuid="b6dc64a7-6f7e-4978-a289-39025d122e5f" />
+    <entry type="group" id="GRP_1778207829955" />
+    <entry type="group" id="GRP_1778294497575" />
+  </topLevelOrder>
+  <childOrder groupId="GRP_1778207829955">
+    <entry type="layer" uuid="d760655d-a560-4309-9591-831323bbb99c" />
+    <entry type="layer" uuid="48565bcc-94ef-4dd3-8f61-b27b1e7a64ad" />
+  </childOrder>
+  <childOrder groupId="GRP_1778294497575">
+    <entry type="layer" uuid="234bb7ea-51fa-4ef4-bb96-3bb486b6a804" />
+    <entry type="layer" uuid="9da90db8-8ad7-42f2-8967-ca2f4c19eff5" />
+  </childOrder>
+  <objects>
+    <object uuid="234bb7ea-51fa-4ef4-bb96-3bb486b6a804" name="Box_375" type="box" gID="GRP_1778294497575" order="0">
+      <color>2303</color>
+      <pos x="0" y="0" z="0" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{"w":"50","h":"25","d":"3","cornerRound":"3","cornerRoundMode":"all"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"cornerRound":null,"d":null,"h":null,"w":null},"font":null,"extrude":{"amount":null},"array":{}}</formulas>
+      <visible>false</visible>
+      <locked>false</locked>
+      <fontKey>helvetiker</fontKey>
+    </object>
+    <object uuid="0d8c7167-cf43-463d-81ea-1a35b4d4ea98" name="Text_58" type="text" gID="" order="1">
+      <color>16777215</color>
+      <pos x="0" y="3.428403239663897" z="0" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <extrude enabled="true" multi="true">
+        <step axis="+Z" amount="0.6" formula="=ref.dh" />
+      </extrude>
+      <offset x="0" y="0" z="0" />
+      <params>{"text":"Muthuraj","size":"6","height":3}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":null,"height":"=Box_375.dd","text":null},"font":null,"extrude":{"amount":null,"amount_0":"=ref.dh"},"array":{},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
+      <visible>true</visible>
+      <locked>false</locked>
+      <fontKey>bold3d</fontKey>
+      <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
+    </object>
+    <object uuid="3901385b-1fbe-4278-83a8-17db9adb6a9f" name="Text_58_Dup_940" type="text" gID="" order="2">
+      <color>16777215</color>
+      <pos x="0" y="-5.206784204912617" z="0" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <extrude enabled="true" multi="true">
+        <step axis="+Z" amount="0.6" formula="=ref.dh" />
+      </extrude>
+      <offset x="0" y="0" z="0" />
+      <params>{"text":"8072638087","size":"5","height":3}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":null,"height":"=Box_375.dd","text":null},"font":null,"extrude":{"amount":null,"amount_0":"=ref.dh"},"array":{},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
+      <visible>true</visible>
+      <locked>false</locked>
+      <fontKey>bold3d</fontKey>
+      <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
+    </object>
+    <object uuid="d760655d-a560-4309-9591-831323bbb99c" name="border" type="box" gID="GRP_1778207829955" order="3">
+      <color>16777215</color>
+      <pos x="0" y="0" z="0" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <extrude enabled="true" multi="true">
+        <step axis="+Z" amount="0.6" formula="" />
+      </extrude>
+      <offset x="0" y="0" z="0" />
+      <params>{"w":50,"h":25,"d":"3","cornerRound":"3","cornerRoundMode":"all"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"cornerRound":null,"d":null,"h":"=Box_375.dh","w":"=Box_375.dw"},"font":null,"extrude":{"amount":null,"amount_0":null},"array":{}}</formulas>
+      <visible>false</visible>
+      <locked>false</locked>
+      <fontKey>helvetiker</fontKey>
+    </object>
+    <object uuid="48565bcc-94ef-4dd3-8f61-b27b1e7a64ad" name="Box_375_Dup_328_Dup_379" type="box" gID="GRP_1778207829955" order="4">
+      <color>3718648</color>
+      <pos x="0" y="0" z="0" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{"w":48,"h":23,"d":"5","cornerRound":"3","cornerRoundMode":"all"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"cornerRound":null,"d":null,"h":"=border.dh-ref.dw","w":"=border.dw-ref.dw"},"font":null,"extrude":{"amount":null},"array":{}}</formulas>
+      <visible>false</visible>
+      <locked>false</locked>
+      <fontKey>helvetiker</fontKey>
+    </object>
+    <object uuid="9da90db8-8ad7-42f2-8967-ca2f4c19eff5" name="Cylinder_373" type="cylinder" gID="GRP_1778294497575" order="5">
+      <color>4668152</color>
+      <pos x="-22.6" y="10.1" z="0" />
+      <rot x="1.5707963267948966" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{"r":"1","h":60,"cornerRound":0,"cornerRoundMode":"all"}</params>
+      <formulas>{"pos":{"x":"=-Box_375.dw/2+ref.dh*4","y":"=Box_375.dh/2-ref.dh*4","z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"r":null},"font":null,"extrude":{"amount":null},"array":{}}</formulas>
+      <visible>false</visible>
+      <locked>false</locked>
+      <fontKey>helvetiker</fontKey>
+    </object>
+    <object uuid="b6dc64a7-6f7e-4978-a289-39025d122e5f" name="ref" type="box" gID="" order="6">
+      <color>16777215</color>
+      <pos x="-81.27615927314456" y="0" z="0" />
+      <rot x="1.5707963267948966" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{"w":"2","h":"0.6","d":50,"cornerRound":0,"cornerRoundMode":"all"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"w":null,"h":null},"font":null,"extrude":{"amount":null},"array":{}}</formulas>
+      <visible>false</visible>
+      <locked>false</locked>
+      <fontKey>helvetiker</fontKey>
+    </object>
+  </objects>
+  <pinnedGroups>
+  </pinnedGroups>
+  <pinned>
+    <pin id="0d8c7167-cf43-463d-81ea-1a35b4d4ea98-size-text" objUUID="0d8c7167-cf43-463d-81ea-1a35b4d4ea98" type="size" axis="text" label="Name" groupId="" />
+    <pin id="0d8c7167-cf43-463d-81ea-1a35b4d4ea98-font" objUUID="0d8c7167-cf43-463d-81ea-1a35b4d4ea98" type="font" axis="fontKey" label="Name Font" groupId="" />
+    <pin id="0d8c7167-cf43-463d-81ea-1a35b4d4ea98-size-size" objUUID="0d8c7167-cf43-463d-81ea-1a35b4d4ea98" type="size" axis="size" label="Name size" groupId="" />
+    <pin id="3901385b-1fbe-4278-83a8-17db9adb6a9f-size-text" objUUID="3901385b-1fbe-4278-83a8-17db9adb6a9f" type="size" axis="text" label="Phone No" groupId="" />
+    <pin id="3901385b-1fbe-4278-83a8-17db9adb6a9f-size-size" objUUID="3901385b-1fbe-4278-83a8-17db9adb6a9f" type="size" axis="size" label="Ph size" groupId="" />
+    <pin id="b6dc64a7-6f7e-4978-a289-39025d122e5f-size-h" objUUID="b6dc64a7-6f7e-4978-a289-39025d122e5f" type="size" axis="h" label="Text and Border height" groupId="" />
+    <pin id="9da90db8-8ad7-42f2-8967-ca2f4c19eff5-size-r" objUUID="9da90db8-8ad7-42f2-8967-ca2f4c19eff5" type="size" axis="r" label="Hole size Radius" groupId="" />
+    <pin id="b6dc64a7-6f7e-4978-a289-39025d122e5f-size-w" objUUID="b6dc64a7-6f7e-4978-a289-39025d122e5f" type="size" axis="w" label="Border Thick" groupId="" />
+    <pin id="234bb7ea-51fa-4ef4-bb96-3bb486b6a804-size-w" objUUID="234bb7ea-51fa-4ef4-bb96-3bb486b6a804" type="size" axis="w" label="Plate size" groupId="" />
+    <pin id="234bb7ea-51fa-4ef4-bb96-3bb486b6a804-size-h" objUUID="234bb7ea-51fa-4ef4-bb96-3bb486b6a804" type="size" axis="h" label="Plate size hight" groupId="" />
+  </pinned>
+  <trackedObjects>
+  </trackedObjects>
+  <trackedGroups>
+  </trackedGroups>
+  <hiddenSelectorLabel>Ticked Object Selector</hiddenSelectorLabel>
+  <objectDisplayNames>
+    <displayName uuid="234bb7ea-51fa-4ef4-bb96-3bb486b6a804" name="Box_375" />
+    <displayName uuid="0d8c7167-cf43-463d-81ea-1a35b4d4ea98" name="Text_58" />
+    <displayName uuid="3901385b-1fbe-4278-83a8-17db9adb6a9f" name="Text_58_Dup_940" />
+    <displayName uuid="d760655d-a560-4309-9591-831323bbb99c" name="border" />
+    <displayName uuid="48565bcc-94ef-4dd3-8f61-b27b1e7a64ad" name="Box_375_Dup_328_Dup_379" />
+    <displayName uuid="9da90db8-8ad7-42f2-8967-ca2f4c19eff5" name="Cylinder_373" />
+    <displayName uuid="b6dc64a7-6f7e-4978-a289-39025d122e5f" name="ref" />
+  </objectDisplayNames>
+  <registeredPlugins>
+  </registeredPlugins>
+</project>
