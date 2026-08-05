@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
   <ui_settings>
-    <left_panel collapsed="false" locked="false" password="" />
+    <left_panel collapsed="false" locked="false" password="156789" />
     <object_tracker enabled="false" />
     <transform_space value="local" />
     <drag_locked value="false" />
   </ui_settings>
-  <camera px="-3.01455876521627" py="14.132915443941588" pz="87.24160655018551" tx="5.317623536134592" ty="1.4653709550577205" tz="12.42542788789614" />
+  <camera px="-0.7930706213435867" py="20.866430704105056" pz="80.8412699212929" tx="-1.5160648471239158" ty="2.0731683416467686" tz="6.857194635241639" />
   <groups>
-    <group id="GRP_1777520433638" name="Group 1" op="sub" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
+    <group id="GRP_1785552802547" name="Group 1" op="sub" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
   </groups>
   <topLevelOrder>
     <entry type="layer" uuid="30af17fa-ff96-431d-a436-b70dde197a60" />
-    <entry type="group" id="GRP_1777520433638" />
+    <entry type="group" id="GRP_1785552802547" />
   </topLevelOrder>
-  <childOrder groupId="GRP_1777520433638">
+  <childOrder groupId="GRP_1785552802547">
     <entry type="layer" uuid="cb831442-04ea-493e-b0d3-48f50257fc39" />
-    <entry type="layer" uuid="ce3107d7-5105-4d48-9596-28d5afeab6e4" />
-    <entry type="layer" uuid="3c0c68ec-f20f-458b-9344-bf60631f6723" />
+    <entry type="layer" uuid="5bb88161-b432-4586-9a6e-edf2e5173016" />
+    <entry type="layer" uuid="05e2d956-1488-486b-b4a8-54171972a2af" />
   </childOrder>
   <objects>
-    <object uuid="cb831442-04ea-493e-b0d3-48f50257fc39" name="Big capital letter" type="text" gID="GRP_1777520433638" order="0">
+    <object uuid="cb831442-04ea-493e-b0d3-48f50257fc39" name="Big capital letter" type="text" gID="GRP_1785552802547" order="0">
       <color>15860354</color>
       <pos x="0" y="0" z="0" />
       <rot x="0" y="0" z="0" />
-      <sca x="1" y="1" z="1" />
+      <sca x="0.8" y="0.8" z="0.8" />
       <uniformScale>true</uniformScale>
       <extrude enabled="false" axis="+Y" amount="0" />
       <offset x="0" y="0" z="0" />
-      <params>{"text":"P","size":"70","height":5}</params>
+      <params>{"text":"H","size":"70","height":5}</params>
       <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":null,"text":null},"font":null,"extrude":{"amount":null},"array":{},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
       <visible>false</visible>
       <locked>false</locked>
@@ -37,53 +37,52 @@
     </object>
     <object uuid="30af17fa-ff96-431d-a436-b70dde197a60" name="small full name" type="text" gID="" order="1">
       <color>16777215</color>
-      <pos x="-4.196965613963229" y="-3.0499518496950078" z="2.202821926058739" />
+      <pos x="-3.55847484303327" y="3.6417921351411335" z="2.202821926058739" />
       <rot x="0" y="0" z="0" />
       <sca x="1" y="1" z="1" />
       <uniformScale>true</uniformScale>
       <extrude enabled="false" axis="+Y" amount="0" />
       <offset x="0" y="0" z="0" />
-      <params>{"text":"priya","size":"25","height":3}</params>
+      <params>{"text":"harini","size":"25","height":3}</params>
       <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":null,"height":null,"text":null},"font":null,"extrude":{"amount":null},"array":{},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
       <visible>true</visible>
       <locked>false</locked>
       <fontKey>great_vibes_canvas</fontKey>
       <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
-      <offsetLayerId>ce3107d7-5105-4d48-9596-28d5afeab6e4</offsetLayerId>
+      <offsetLayerId>5bb88161-b432-4586-9a6e-edf2e5173016</offsetLayerId>
     </object>
-    <object uuid="3c0c68ec-f20f-458b-9344-bf60631f6723" name="Tamil_183_Dup_222" type="text" gID="GRP_1777520433638" order="2">
-      <color>16777215</color>
-      <pos x="0" y="0" z="0" />
-      <rot x="0" y="0" z="0" />
-      <sca x="0" y="0" z="0" />
+    <object uuid="05e2d956-1488-486b-b4a8-54171972a2af" name="holes" type="cylinder" gID="GRP_1785552802547" order="2">
+      <color>3718648</color>
+      <pos x="-16.943459153383778" y="21.12797057693338" z="-3.552713678800501e-15" />
+      <rot x="1.5707963267948966" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
       <uniformScale>true</uniformScale>
       <extrude enabled="false" axis="+Y" amount="0" />
       <offset x="0" y="0" z="0" />
-      <params>{"text":"Tamil_183.Tt","size":"25","height":3}</params>
-      <formulas>{"pos":{"x":"=Tamil_183.Mx","y":"=Tamil_183.My","z":"=Tamil_183.Mz"},"rot":{"x":null,"y":null,"z":null},"sca":{"x":"=Tamil_183.Sx","y":null,"z":null},"size":{"size":null,"height":null,"text":"=Tamil_183.Tt"},"font":"=Tamil_183.Ff","extrude":{"amount":null},"array":{},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
+      <params>{"r":"1.5","h":60,"cornerRound":0,"cornerRoundMode":"all"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"r":null},"font":null,"extrude":{"amount":null},"array":{}}</formulas>
       <visible>false</visible>
       <locked>false</locked>
-      <fontKey>great_vibes_canvas</fontKey>
-      <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
+      <fontKey>helvetiker</fontKey>
     </object>
-    <object uuid="ce3107d7-5105-4d48-9596-28d5afeab6e4" name="Tamil_183_Offset" type="offset" gID="GRP_1777520433638" order="3">
+    <object uuid="5bb88161-b432-4586-9a6e-edf2e5173016" name="small full name_Offset" type="offset" gID="GRP_1785552802547" order="3">
       <color>5592405</color>
-      <pos x="0" y="0" z="0" />
+      <pos x="-3.55847484303327" y="3.6417921351411335" z="2.202821926058739" />
       <rot x="0" y="0" z="0" />
-      <sca x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
       <uniformScale>true</uniformScale>
       <offset x="0" y="0" z="0" />
-      <params>{"text":"Tamil_183.Tt","size":"25","height":4}</params>
-      <formulas>{"pos":{"x":"=Tamil_183.Mx","y":"=Tamil_183.My","z":"=Tamil_183.Mz"},"rot":{"x":null,"y":null,"z":null},"sca":{"x":"=Tamil_183.Sx","y":"=Tamil_183.Sx","z":"=Tamil_183.Sx"},"size":{"text":"=Tamil_183.Tt"},"font":"=Tamil_183.Ff","offset":{"offsetAmount":null,"offsetDepth":null},"array":{},"extrude":{}}</formulas>
+      <params>{"text":"harini","size":"25","height":5}</params>
+      <formulas>{"pos":{"x":"=small full name.Mx","y":"=small full name.My","z":"=small full name.Mz"},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"text":"=small full name.Tt"},"font":null,"offset":{"offsetAmount":null,"offsetDepth":null},"array":{},"extrude":{}}</formulas>
       <visible>false</visible>
-      <locked>false</locked>
+      <locked>true</locked>
       <fontKey>great_vibes_canvas</fontKey>
       <isOffsetLayer>true</isOffsetLayer>
       <parentTextUUID>30af17fa-ff96-431d-a436-b70dde197a60</parentTextUUID>
-      <parentText>Tamil_183.Tt</parentText>
+      <parentText>harini</parentText>
       <parentSize>25</parentSize>
-      <offsetAmount>0.3</offsetAmount>
-      <offsetDepth>4</offsetDepth>
+      <offsetAmount>0.4</offsetAmount>
+      <offsetDepth>5</offsetDepth>
       <parentBend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</parentBend>
     </object>
   </objects>
@@ -94,6 +93,7 @@
     <pin id="cb831442-04ea-493e-b0d3-48f50257fc39-size-text" objUUID="cb831442-04ea-493e-b0d3-48f50257fc39" type="size" axis="text" label="Capital 1st letter" groupId="" />
     <pin id="cb831442-04ea-493e-b0d3-48f50257fc39-scale-x" objUUID="cb831442-04ea-493e-b0d3-48f50257fc39" type="scale" axis="x" label="Big size" groupId="" />
     <pin id="30af17fa-ff96-431d-a436-b70dde197a60-scale-x" objUUID="30af17fa-ff96-431d-a436-b70dde197a60" type="scale" axis="x" label="small size" groupId="" />
+    <pin id="05e2d956-1488-486b-b4a8-54171972a2af-size-cornerRound" objUUID="05e2d956-1488-486b-b4a8-54171972a2af" type="size" axis="cornerRound" label="Holes position -  Direct Object click Move" groupId="" />
   </pinned>
   <trackedObjects>
   </trackedObjects>
@@ -103,8 +103,8 @@
   <objectDisplayNames>
     <displayName uuid="cb831442-04ea-493e-b0d3-48f50257fc39" name="Big capital letter" />
     <displayName uuid="30af17fa-ff96-431d-a436-b70dde197a60" name="small full name" />
-    <displayName uuid="3c0c68ec-f20f-458b-9344-bf60631f6723" name="Tamil_183_Dup_222" />
-    <displayName uuid="ce3107d7-5105-4d48-9596-28d5afeab6e4" name="Tamil_183_Offset" />
+    <displayName uuid="05e2d956-1488-486b-b4a8-54171972a2af" name="holes" />
+    <displayName uuid="5bb88161-b432-4586-9a6e-edf2e5173016" name="small full name_Offset" />
   </objectDisplayNames>
   <registeredPlugins>
   </registeredPlugins>
