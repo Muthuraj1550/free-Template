@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <ui_settings>
+    <left_panel collapsed="false" locked="false" password="" floatMode="false" />
+    <object_tracker enabled="false" />
+    <transform_space value="local" />
+    <drag_locked value="true" />
+  </ui_settings>
+  <camera px="150.9414410141229" py="150.9414410141229" pz="150.94144101412292" tx="0" ty="0" tz="0" />
+  <groups>
+    <group id="GRP_1789475665296" name="Group 1" op="sub" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
+  </groups>
+  <topLevelOrder>
+    <entry type="group" id="GRP_1789475665296" />
+  </topLevelOrder>
+  <childOrder groupId="GRP_1789475665296">
+    <entry type="layer" uuid="8298f3af-76ee-42be-b3c6-565099b485d7" />
+    <entry type="layer" uuid="c5e0736d-7542-414e-813b-7c54dcf3b943" />
+  </childOrder>
+  <objects>
+    <object uuid="8298f3af-76ee-42be-b3c6-565099b485d7" name="Sphere_380" type="sphere" gID="GRP_1789475665296" order="0">
+      <color>165063</color>
+      <pos x="0" y="0" z="0" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>true</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{"r":30}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{},"font":null,"extrude":{"amount":null},"array":{}}</formulas>
+      <visible>false</visible>
+      <locked>false</locked>
+      <fontKey>helvetiker</fontKey>
+    </object>
+    <object uuid="c5e0736d-7542-414e-813b-7c54dcf3b943" name="Cylinder_808" type="cylinder" gID="GRP_1789475665296" order="1">
+      <color>16347926</color>
+      <pos x="0" y="0" z="0" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>true</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{"r":25,"h":60,"cornerRound":0,"cornerRoundMode":"all"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{},"font":null,"extrude":{"amount":null},"array":{}}</formulas>
+      <visible>false</visible>
+      <locked>false</locked>
+      <fontKey>helvetiker</fontKey>
+    </object>
+  </objects>
+  <pinnedGroups>
+  </pinnedGroups>
+  <pinned>
+  </pinned>
+  <trackedObjects>
+  </trackedObjects>
+  <trackedGroups>
+  </trackedGroups>
+  <hiddenSelectorLabel>Ticked Object Selector</hiddenSelectorLabel>
+  <objectDisplayNames>
+    <displayName uuid="8298f3af-76ee-42be-b3c6-565099b485d7" name="Sphere_380" />
+    <displayName uuid="c5e0736d-7542-414e-813b-7c54dcf3b943" name="Cylinder_808" />
+  </objectDisplayNames>
+  <registeredPlugins>
+  </registeredPlugins>
+</project>
