@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
   <ui_settings>
-    <left_panel collapsed="false" locked="false" password="156789" />
+    <left_panel collapsed="false" locked="false" password="156789" floatMode="true" />
     <object_tracker enabled="false" />
     <transform_space value="local" />
     <drag_locked value="false" />
   </ui_settings>
-  <camera px="-0.7930706213435867" py="20.866430704105056" pz="80.8412699212929" tx="-1.5160648471239158" ty="2.0731683416467686" tz="6.857194635241639" />
+  <camera px="-27.61979261425791" py="13.204717547814047" pz="98.96585546062234" tx="-1.5160648471239158" ty="2.0731683416467686" tz="6.857194635241639" />
   <groups>
     <group id="GRP_1785552802547" name="Group 1" op="sub" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
   </groups>
@@ -89,11 +89,11 @@
   <pinnedGroups>
   </pinnedGroups>
   <pinned>
-    <pin id="30af17fa-ff96-431d-a436-b70dde197a60-size-text" objUUID="30af17fa-ff96-431d-a436-b70dde197a60" type="size" axis="text" label="Full naem Small" groupId="" />
-    <pin id="cb831442-04ea-493e-b0d3-48f50257fc39-size-text" objUUID="cb831442-04ea-493e-b0d3-48f50257fc39" type="size" axis="text" label="Capital 1st letter" groupId="" />
-    <pin id="cb831442-04ea-493e-b0d3-48f50257fc39-scale-x" objUUID="cb831442-04ea-493e-b0d3-48f50257fc39" type="scale" axis="x" label="Big size" groupId="" />
-    <pin id="30af17fa-ff96-431d-a436-b70dde197a60-scale-x" objUUID="30af17fa-ff96-431d-a436-b70dde197a60" type="scale" axis="x" label="small size" groupId="" />
-    <pin id="05e2d956-1488-486b-b4a8-54171972a2af-size-cornerRound" objUUID="05e2d956-1488-486b-b4a8-54171972a2af" type="size" axis="cornerRound" label="Holes position -  Direct Object click Move" groupId="" />
+    <pin id="30af17fa-ff96-431d-a436-b70dde197a60-size-text" objUUID="30af17fa-ff96-431d-a436-b70dde197a60" type="size" axis="text" label="Full naem Small" groupId="" paidOverride="0" paidFontKey="" />
+    <pin id="cb831442-04ea-493e-b0d3-48f50257fc39-size-text" objUUID="cb831442-04ea-493e-b0d3-48f50257fc39" type="size" axis="text" label="Capital 1st letter" groupId="" paidOverride="0" paidFontKey="" />
+    <pin id="cb831442-04ea-493e-b0d3-48f50257fc39-scale-x" objUUID="cb831442-04ea-493e-b0d3-48f50257fc39" type="scale" axis="x" label="Big size" groupId="" paidOverride="0" paidFontKey="" />
+    <pin id="30af17fa-ff96-431d-a436-b70dde197a60-scale-x" objUUID="30af17fa-ff96-431d-a436-b70dde197a60" type="scale" axis="x" label="small size" groupId="" paidOverride="0" paidFontKey="" />
+    <pin id="05e2d956-1488-486b-b4a8-54171972a2af-size-cornerRound" objUUID="05e2d956-1488-486b-b4a8-54171972a2af" type="size" axis="cornerRound" label="Holes position -  Direct Object click Move" groupId="" paidOverride="0" paidFontKey="" />
   </pinned>
   <trackedObjects>
   </trackedObjects>
