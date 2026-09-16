@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <ui_settings>
+    <left_panel collapsed="false" locked="false" password="" floatMode="false" />
+    <object_tracker enabled="false" />
+    <transform_space value="local" />
+    <drag_locked value="true" />
+  </ui_settings>
+  <camera px="99.86861142569028" py="43.719437559450995" pz="164.96829267089296" tx="0" ty="0" tz="0" />
+  <groups>
+  </groups>
+  <topLevelOrder>
+    <entry type="layer" uuid="b677b5ab-cf8c-4208-8970-f8273f10b83f" />
+    <entry type="layer" uuid="1f9056b6-0781-4a40-a524-11d662317e44" />
+  </topLevelOrder>
+  <objects>
+    <object uuid="b677b5ab-cf8c-4208-8970-f8273f10b83f" name="Text_564" type="text" gID="" order="0">
+      <color>16771584</color>
+      <pos x="4.704061549249999" y="-1.0330792088246525" z="8.479852114977556" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="-1.7243305883321902" />
+      <params>{"text":"TVK","size":"8","height":"1"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"text":null,"size":null,"height":null},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null},"font":null,"extrude":{},"array":{}}</formulas>
+      <visible>true</visible>
+      <locked>false</locked>
+      <fontKey>yellowtail</fontKey>
+      <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
+    </object>
+    <object uuid="1f9056b6-0781-4a40-a524-11d662317e44" name="Link_STL_235" type="stl" gID="" order="1">
+      <color>16711680</color>
+      <pos x="0" y="0" z="0" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{},"extrude":{},"array":{}}</formulas>
+      <visible>true</visible>
+      <locked>false</locked>
+      <fontKey>helvetiker</fontKey>
+      <stlUrl>https://raw.githubusercontent.com/Muthuraj1550/3d/92058469544ba72b1a0118c8c245716dea900e0d/Whistle_with_8mmball_eye.STL</stlUrl>
+    </object>
+  </objects>
+  <pinnedGroups>
+  </pinnedGroups>
+  <pinned>
+    <pin id="b677b5ab-cf8c-4208-8970-f8273f10b83f-size-text" objUUID="b677b5ab-cf8c-4208-8970-f8273f10b83f" type="size" axis="text" label="NAME" groupId="" paidOverride="0" paidFontKey="" />
+    <pin id="b677b5ab-cf8c-4208-8970-f8273f10b83f-size-size" objUUID="b677b5ab-cf8c-4208-8970-f8273f10b83f" type="size" axis="size" label="size" groupId="" paidOverride="0" paidFontKey="" />
+    <pin id="b677b5ab-cf8c-4208-8970-f8273f10b83f-size-height" objUUID="b677b5ab-cf8c-4208-8970-f8273f10b83f" type="size" axis="height" label="Thicknes" groupId="" paidOverride="0" paidFontKey="" />
+    <pin id="b677b5ab-cf8c-4208-8970-f8273f10b83f-font" objUUID="b677b5ab-cf8c-4208-8970-f8273f10b83f" type="font" axis="fontKey" label="Font" groupId="" paidOverride="0" paidFontKey="" />
+  </pinned>
+  <trackedObjects>
+  </trackedObjects>
+  <trackedGroups>
+  </trackedGroups>
+  <hiddenSelectorLabel>Ticked Object Selector</hiddenSelectorLabel>
+  <objectDisplayNames>
+    <displayName uuid="b677b5ab-cf8c-4208-8970-f8273f10b83f" name="Text_564" />
+    <displayName uuid="1f9056b6-0781-4a40-a524-11d662317e44" name="Link_STL_235" />
+  </objectDisplayNames>
+  <registeredPlugins>
+  </registeredPlugins>
+</project>
