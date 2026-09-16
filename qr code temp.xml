@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
   <ui_settings>
-    <left_panel collapsed="false" locked="false" password="" />
+    <left_panel collapsed="false" locked="false" password="" floatMode="true" />
     <object_tracker enabled="false" />
     <transform_space value="local" />
     <drag_locked value="true" />
   </ui_settings>
-  <camera px="0.6258194813395526" py="90.43528393725482" pz="12.24412690753257" tx="1.1254297849799944" ty="2.663984943548773" tz="3.4784021058405323" />
+  <camera px="0.36564617728130466" py="90.67863798975152" pz="9.28633175616114" tx="1.1254297849799944" ty="2.663984943548773" tz="3.4784021058405323" />
   <groups>
   </groups>
   <topLevelOrder>
@@ -102,11 +102,11 @@
   <pinnedGroups>
   </pinnedGroups>
   <pinned>
-    <pin id="fd6a7b65-a290-4744-b787-6faaad583abf-size-text" objUUID="fd6a7b65-a290-4744-b787-6faaad583abf" type="size" axis="text" label="text" groupId="" />
-    <pin id="fd6a7b65-a290-4744-b787-6faaad583abf-size-size" objUUID="fd6a7b65-a290-4744-b787-6faaad583abf" type="size" axis="size" label="size" groupId="" />
-    <pin id="fd6a7b65-a290-4744-b787-6faaad583abf-font" objUUID="fd6a7b65-a290-4744-b787-6faaad583abf" type="font" axis="fontKey" label="Text_641_Font" groupId="" />
-    <pin id="5da11d3c-fe73-4740-9405-6c3800bc11f6-size-text" objUUID="5da11d3c-fe73-4740-9405-6c3800bc11f6" type="size" axis="text" label="text" groupId="" />
-    <pin id="5da11d3c-fe73-4740-9405-6c3800bc11f6-size-size" objUUID="5da11d3c-fe73-4740-9405-6c3800bc11f6" type="size" axis="size" label="size" groupId="" />
+    <pin id="fd6a7b65-a290-4744-b787-6faaad583abf-size-text" objUUID="fd6a7b65-a290-4744-b787-6faaad583abf" type="size" axis="text" label="text" groupId="" paidOverride="0" paidFontKey="" />
+    <pin id="fd6a7b65-a290-4744-b787-6faaad583abf-size-size" objUUID="fd6a7b65-a290-4744-b787-6faaad583abf" type="size" axis="size" label="size" groupId="" paidOverride="0" paidFontKey="" />
+    <pin id="fd6a7b65-a290-4744-b787-6faaad583abf-font" objUUID="fd6a7b65-a290-4744-b787-6faaad583abf" type="font" axis="fontKey" label="Text_641_Font" groupId="" paidOverride="0" paidFontKey="" />
+    <pin id="5da11d3c-fe73-4740-9405-6c3800bc11f6-size-text" objUUID="5da11d3c-fe73-4740-9405-6c3800bc11f6" type="size" axis="text" label="text" groupId="" paidOverride="0" paidFontKey="" />
+    <pin id="5da11d3c-fe73-4740-9405-6c3800bc11f6-size-size" objUUID="5da11d3c-fe73-4740-9405-6c3800bc11f6" type="size" axis="size" label="size" groupId="" paidOverride="0" paidFontKey="" />
   </pinned>
   <trackedObjects>
   </trackedObjects>
