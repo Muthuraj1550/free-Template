@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
   <ui_settings>
-    <left_panel collapsed="true" locked="false" password="" />
+    <left_panel collapsed="false" locked="false" password="" floatMode="true" />
     <object_tracker enabled="false" />
+    <transform_space value="local" />
+    <drag_locked value="true" />
   </ui_settings>
+  <camera px="-5.927853245579967" py="23.26181581342404" pz="92.92209742359559" tx="-0.35559994592667304" ty="1.8522772779227157" tz="-1.2557607066315288" />
   <groups>
-    <group id="GRP_1772176722785" name="Group 1" op="sub" visible="true" />
+    <group id="GRP_1772176722785" name="Group 1" op="sub" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
   </groups>
+  <topLevelOrder>
+    <entry type="group" id="GRP_1772176722785" />
+    <entry type="layer" uuid="18213bd4-71b6-45d8-b30d-bf0a8e17ae77" />
+    <entry type="layer" uuid="734c3973-7812-4c19-be94-b305b81343ff" />
+  </topLevelOrder>
+  <childOrder groupId="GRP_1772176722785">
+    <entry type="layer" uuid="4ab9ae38-7d56-4129-a4a7-77e67766d570" />
+    <entry type="layer" uuid="f83972b8-cea8-452f-84e6-df18b9509f8b" />
+  </childOrder>
   <objects>
     <object uuid="4ab9ae38-7d56-4129-a4a7-77e67766d570" name="Heart_39" type="heart" gID="GRP_1772176722785" order="0">
       <color>16711680</color>
@@ -14,11 +26,14 @@
       <rot x="0" y="0" z="3.141592653589793" />
       <sca x="1" y="1" z="0.33924092695465186" />
       <uniformScale>false</uniformScale>
-      <extrude enabled="true" axis="-Z" amount="1" />
+      <extrude enabled="true" multi="true">
+        <step axis="-Z" amount="1" formula="" />
+      </extrude>
       <offset x="0" y="0" z="0" />
       <params>{"size":"25","thickness":"1"}</params>
-      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":null,"thickness":null},"font":null,"extrude":{"amount":null}}</formulas>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":null,"thickness":null},"font":null,"extrude":{"amount":null},"array":{}}</formulas>
       <visible>false</visible>
+      <locked>false</locked>
       <fontKey>helvetiker</fontKey>
     </object>
     <object uuid="18213bd4-71b6-45d8-b30d-bf0a8e17ae77" name="Text_15" type="text" gID="" order="1">
@@ -27,11 +42,14 @@
       <rot x="0" y="0" z="0" />
       <sca x="1" y="1" z="1" />
       <uniformScale>false</uniformScale>
-      <extrude enabled="true" axis="+Z" amount="1" />
+      <extrude enabled="true" multi="true">
+        <step axis="+Z" amount="1" formula="" />
+      </extrude>
       <offset x="0" y="0" z="0" />
       <params>{"text":"Muthu","size":"11","height":"2"}</params>
-      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":null,"height":null,"text":null},"font":null,"extrude":{"amount":null},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":null,"height":null,"text":null},"font":null,"extrude":{"amount":null},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null},"array":{}}</formulas>
       <visible>true</visible>
+      <locked>false</locked>
       <fontKey>satisfy</fontKey>
       <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
     </object>
@@ -41,11 +59,14 @@
       <rot x="0" y="0" z="0" />
       <sca x="1" y="1" z="1" />
       <uniformScale>false</uniformScale>
-      <extrude enabled="true" axis="+Z" amount="1" />
+      <extrude enabled="true" multi="true">
+        <step axis="+Z" amount="1" formula="" />
+      </extrude>
       <offset x="0" y="0" z="0" />
       <params>{"text":"Priya","size":"11","height":"2"}</params>
-      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":null,"height":null,"text":null},"font":null,"extrude":{"amount":null},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":null,"height":null,"text":null},"font":null,"extrude":{"amount":null},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null},"array":{}}</formulas>
       <visible>true</visible>
+      <locked>false</locked>
       <fontKey>satisfy</fontKey>
       <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
     </object>
@@ -58,8 +79,9 @@
       <extrude enabled="false" axis="+Y" amount="0" />
       <offset x="0" y="0" z="0" />
       <params>{"r":"1","h":60,"cornerRound":0,"cornerRoundMode":"all"}</params>
-      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"r":null},"font":null,"extrude":{"amount":null}}</formulas>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"r":null},"font":null,"extrude":{"amount":null},"array":{}}</formulas>
       <visible>false</visible>
+      <locked>false</locked>
       <fontKey>helvetiker</fontKey>
     </object>
   </objects>
@@ -69,18 +91,18 @@
     <group id="GRP_1772176850017" name="2nd Name" pins="734c3973-7812-4c19-be94-b305b81343ff-size-text,734c3973-7812-4c19-be94-b305b81343ff-extrude-amount,734c3973-7812-4c19-be94-b305b81343ff-font,734c3973-7812-4c19-be94-b305b81343ff-size-size" />
   </pinnedGroups>
   <pinned>
-    <pin id="4ab9ae38-7d56-4129-a4a7-77e67766d570-extrude-amount" objUUID="4ab9ae38-7d56-4129-a4a7-77e67766d570" type="extrude" axis="amount" label="Heart Thickness ( defult 2 mm)" groupId="GRP_1772176743632" />
-    <pin id="18213bd4-71b6-45d8-b30d-bf0a8e17ae77-size-text" objUUID="18213bd4-71b6-45d8-b30d-bf0a8e17ae77" type="size" axis="text" label="text" groupId="GRP_1772176824961" />
-    <pin id="18213bd4-71b6-45d8-b30d-bf0a8e17ae77-size-size" objUUID="18213bd4-71b6-45d8-b30d-bf0a8e17ae77" type="size" axis="size" label="1st Name size" groupId="GRP_1772176824961" />
-    <pin id="18213bd4-71b6-45d8-b30d-bf0a8e17ae77-font" objUUID="18213bd4-71b6-45d8-b30d-bf0a8e17ae77" type="font" axis="fontKey" label="Font" groupId="GRP_1772176824961" />
-    <pin id="18213bd4-71b6-45d8-b30d-bf0a8e17ae77-extrude-amount" objUUID="18213bd4-71b6-45d8-b30d-bf0a8e17ae77" type="extrude" axis="amount" label="1st Name Thick" groupId="GRP_1772176824961" />
-    <pin id="734c3973-7812-4c19-be94-b305b81343ff-extrude-amount" objUUID="734c3973-7812-4c19-be94-b305b81343ff" type="extrude" axis="amount" label="2nd Thick" groupId="GRP_1772176850017" />
-    <pin id="734c3973-7812-4c19-be94-b305b81343ff-size-text" objUUID="734c3973-7812-4c19-be94-b305b81343ff" type="size" axis="text" label="2nd Name" groupId="GRP_1772176850017" />
-    <pin id="f83972b8-cea8-452f-84e6-df18b9509f8b-size-r" objUUID="f83972b8-cea8-452f-84e6-df18b9509f8b" type="size" axis="r" label="Hole Radius" groupId="GRP_1772176743632" />
-    <pin id="734c3973-7812-4c19-be94-b305b81343ff-font" objUUID="734c3973-7812-4c19-be94-b305b81343ff" type="font" axis="fontKey" label="2nd Font" groupId="GRP_1772176850017" />
-    <pin id="734c3973-7812-4c19-be94-b305b81343ff-size-size" objUUID="734c3973-7812-4c19-be94-b305b81343ff" type="size" axis="size" label="2nd size" groupId="GRP_1772176850017" />
-    <pin id="f83972b8-cea8-452f-84e6-df18b9509f8b-translate-x" objUUID="f83972b8-cea8-452f-84e6-df18b9509f8b" type="translate" axis="x" label="Hole   Position       x" groupId="GRP_1772176743632" />
-    <pin id="f83972b8-cea8-452f-84e6-df18b9509f8b-translate-y" objUUID="f83972b8-cea8-452f-84e6-df18b9509f8b" type="translate" axis="y" label="Hole Position    y" groupId="GRP_1772176743632" />
+    <pin id="4ab9ae38-7d56-4129-a4a7-77e67766d570-extrude-amount" objUUID="4ab9ae38-7d56-4129-a4a7-77e67766d570" type="extrude" axis="amount" label="Heart Thickness ( defult 2 mm)" groupId="GRP_1772176743632" paidOverride="0" paidFontKey="" />
+    <pin id="18213bd4-71b6-45d8-b30d-bf0a8e17ae77-size-text" objUUID="18213bd4-71b6-45d8-b30d-bf0a8e17ae77" type="size" axis="text" label="text" groupId="GRP_1772176824961" paidOverride="0" paidFontKey="" />
+    <pin id="18213bd4-71b6-45d8-b30d-bf0a8e17ae77-size-size" objUUID="18213bd4-71b6-45d8-b30d-bf0a8e17ae77" type="size" axis="size" label="1st Name size" groupId="GRP_1772176824961" paidOverride="0" paidFontKey="" />
+    <pin id="18213bd4-71b6-45d8-b30d-bf0a8e17ae77-font" objUUID="18213bd4-71b6-45d8-b30d-bf0a8e17ae77" type="font" axis="fontKey" label="Font" groupId="GRP_1772176824961" paidOverride="0" paidFontKey="" />
+    <pin id="18213bd4-71b6-45d8-b30d-bf0a8e17ae77-extrude-amount" objUUID="18213bd4-71b6-45d8-b30d-bf0a8e17ae77" type="extrude" axis="amount" label="1st Name Thick" groupId="GRP_1772176824961" paidOverride="0" paidFontKey="" />
+    <pin id="734c3973-7812-4c19-be94-b305b81343ff-extrude-amount" objUUID="734c3973-7812-4c19-be94-b305b81343ff" type="extrude" axis="amount" label="2nd Thick" groupId="GRP_1772176850017" paidOverride="0" paidFontKey="" />
+    <pin id="734c3973-7812-4c19-be94-b305b81343ff-size-text" objUUID="734c3973-7812-4c19-be94-b305b81343ff" type="size" axis="text" label="2nd Name" groupId="GRP_1772176850017" paidOverride="0" paidFontKey="" />
+    <pin id="f83972b8-cea8-452f-84e6-df18b9509f8b-size-r" objUUID="f83972b8-cea8-452f-84e6-df18b9509f8b" type="size" axis="r" label="Hole Radius" groupId="GRP_1772176743632" paidOverride="0" paidFontKey="" />
+    <pin id="734c3973-7812-4c19-be94-b305b81343ff-font" objUUID="734c3973-7812-4c19-be94-b305b81343ff" type="font" axis="fontKey" label="2nd Font" groupId="GRP_1772176850017" paidOverride="0" paidFontKey="" />
+    <pin id="734c3973-7812-4c19-be94-b305b81343ff-size-size" objUUID="734c3973-7812-4c19-be94-b305b81343ff" type="size" axis="size" label="2nd size" groupId="GRP_1772176850017" paidOverride="0" paidFontKey="" />
+    <pin id="f83972b8-cea8-452f-84e6-df18b9509f8b-translate-x" objUUID="f83972b8-cea8-452f-84e6-df18b9509f8b" type="translate" axis="x" label="Hole   Position       x" groupId="GRP_1772176743632" paidOverride="0" paidFontKey="" />
+    <pin id="f83972b8-cea8-452f-84e6-df18b9509f8b-translate-y" objUUID="f83972b8-cea8-452f-84e6-df18b9509f8b" type="translate" axis="y" label="Hole Position    y" groupId="GRP_1772176743632" paidOverride="0" paidFontKey="" />
   </pinned>
   <trackedObjects>
   </trackedObjects>
