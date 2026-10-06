@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <ui_settings>
+    <left_panel collapsed="false" locked="false" password="" floatMode="true" />
+    <object_tracker enabled="false" />
+    <transform_space value="local" />
+    <drag_locked value="true" />
+  </ui_settings>
+  <camera px="-5.822415975965393" py="121.4630687988824" pz="135.05600570749118" tx="6.822274098011999" ty="66.06155738590539" tz="-35.0609012368246" />
+  <groups>
+    <group id="GRP_1791194392969" name="Group 1" op="int" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
+  </groups>
+  <topLevelOrder>
+    <entry type="group" id="GRP_1791194392969" />
+  </topLevelOrder>
+  <childOrder groupId="GRP_1791194392969">
+    <entry type="layer" uuid="f070bfb1-05cf-4645-8f72-3d1c32e8a85b" />
+    <entry type="layer" uuid="c3788592-7a5d-4263-85f2-ea366c364b88" />
+  </childOrder>
+  <objects>
+    <object uuid="f070bfb1-05cf-4645-8f72-3d1c32e8a85b" name="Heart_530" type="heart" gID="GRP_1791194392969" order="0">
+      <color>15485081</color>
+      <pos x="0.053742011384144556" y="73.47346907739605" z="-2.8974665550707923e-16" />
+      <rot x="0" y="0" z="3.141592653589793" />
+      <sca x="0.44336918456988944" y="0.44336918456988944" z="0.44336918456988944" />
+      <uniformScale>true</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{"size":50,"thickness":"5"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"thickness":null},"font":null,"extrude":{"amount":null},"array":{},"dim":{"x":"=Text_554.Vx","y":null,"z":null}}</formulas>
+      <visible>false</visible>
+      <locked>false</locked>
+      <fontKey>helvetiker</fontKey>
+    </object>
+    <object uuid="c3788592-7a5d-4263-85f2-ea366c364b88" name="Text_554" type="text" gID="GRP_1791194392969" order="1">
+      <color>16777215</color>
+      <pos x="-0.053742011384119354" y="100.9662217202927" z="-1.4866101838931712e-15" />
+      <rot x="-1.5707963267948943" y="-0.003909520321816281" z="4.207170262001402e-15" />
+      <sca x="0.6737742675566176" y="0.6737742675566176" z="0.6737742675566176" />
+      <uniformScale>true</uniformScale>
+      <extrude enabled="true" multi="true">
+        <step axis="-Z" amount="90" formula="" />
+      </extrude>
+      <offset x="0" y="0" z="0" />
+      <params>{"text":" karthi","size":30,"height":10}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"text":null,"height":null},"font":null,"extrude":{"amount":null,"amount_0":null},"array":{},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null},"dim":{"x":null,"y":null,"z":null}}</formulas>
+      <visible>false</visible>
+      <locked>false</locked>
+      <fontKey>satisfy_canvas</fontKey>
+      <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
+    </object>
+  </objects>
+  <pinnedGroups>
+  </pinnedGroups>
+  <pinned>
+    <pin id="c3788592-7a5d-4263-85f2-ea366c364b88-size-text" objUUID="c3788592-7a5d-4263-85f2-ea366c364b88" type="size" axis="text" label="Name ( Only  small letters )" groupId="" paidOverride="0" paidFontKey="" url="" />
+    <pin id="c3788592-7a5d-4263-85f2-ea366c364b88-size-size" objUUID="c3788592-7a5d-4263-85f2-ea366c364b88" type="size" axis="size" label="size" groupId="" paidOverride="0" paidFontKey="" url="" />
+    <pin id="linkbtn-1791265081260-726" objUUID="null" type="linkButton" axis="link" label="must click refresh button" groupId="" paidOverride="0" paidFontKey="" url="https://my3dgifts.com/designer.php?market=2" />
+    <pin id="f070bfb1-05cf-4645-8f72-3d1c32e8a85b-rotate-z" objUUID="f070bfb1-05cf-4645-8f72-3d1c32e8a85b" type="rotate" axis="z" label="Change Heart Text view" groupId="" paidOverride="0" paidFontKey="" url="" />
+  </pinned>
+  <trackedObjects>
+  </trackedObjects>
+  <trackedGroups>
+  </trackedGroups>
+  <hiddenSelectorLabel>Ticked Object Selector</hiddenSelectorLabel>
+  <objectDisplayNames>
+    <displayName uuid="f070bfb1-05cf-4645-8f72-3d1c32e8a85b" name="Heart_530" />
+    <displayName uuid="c3788592-7a5d-4263-85f2-ea366c364b88" name="Text_554" />
+  </objectDisplayNames>
+  <registeredPlugins>
+  </registeredPlugins>
+</project>
