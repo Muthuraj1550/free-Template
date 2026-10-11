@@ -6,7 +6,7 @@
     <transform_space value="local" />
     <drag_locked value="true" />
   </ui_settings>
-  <camera px="-5.822415975965393" py="121.4630687988824" pz="135.05600570749118" tx="6.822274098011999" ty="66.06155738590539" tz="-35.0609012368246" />
+  <camera px="-5.026951960847228" py="107.64919800395703" pz="89.48987391133082" tx="6.822274098011999" ty="66.06155738590539" tz="-35.0609012368246" />
   <groups>
     <group id="GRP_1791194392969" name="Group 1" op="int" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
   </groups>
@@ -53,10 +53,10 @@
   <pinnedGroups>
   </pinnedGroups>
   <pinned>
-    <pin id="c3788592-7a5d-4263-85f2-ea366c364b88-size-text" objUUID="c3788592-7a5d-4263-85f2-ea366c364b88" type="size" axis="text" label="Name ( Only  small letters )" groupId="" paidOverride="0" paidFontKey="" url="" />
-    <pin id="c3788592-7a5d-4263-85f2-ea366c364b88-size-size" objUUID="c3788592-7a5d-4263-85f2-ea366c364b88" type="size" axis="size" label="size" groupId="" paidOverride="0" paidFontKey="" url="" />
-    <pin id="linkbtn-1791265081260-726" objUUID="null" type="linkButton" axis="link" label="must click refresh button" groupId="" paidOverride="0" paidFontKey="" url="https://my3dgifts.com/designer.php?market=2" />
-    <pin id="f070bfb1-05cf-4645-8f72-3d1c32e8a85b-rotate-z" objUUID="f070bfb1-05cf-4645-8f72-3d1c32e8a85b" type="rotate" axis="z" label="Change Heart Text view" groupId="" paidOverride="0" paidFontKey="" url="" />
+    <pin id="c3788592-7a5d-4263-85f2-ea366c364b88-size-text" objUUID="c3788592-7a5d-4263-85f2-ea366c364b88" type="size" axis="text" label="Name ( Only  small letters )" groupId="" paidOverride="0" paidFontKey="" url="" objUUIDs="" />
+    <pin id="c3788592-7a5d-4263-85f2-ea366c364b88-size-size" objUUID="c3788592-7a5d-4263-85f2-ea366c364b88" type="size" axis="size" label="size" groupId="" paidOverride="0" paidFontKey="" url="" objUUIDs="" />
+    <pin id="linkbtn-1791265081260-726" objUUID="null" type="linkButton" axis="link" label="must click refresh button" groupId="" paidOverride="0" paidFontKey="" url="" objUUIDs="" />
+    <pin id="f070bfb1-05cf-4645-8f72-3d1c32e8a85b-rotate-z" objUUID="f070bfb1-05cf-4645-8f72-3d1c32e8a85b" type="rotate" axis="z" label="Change Heart Text view" groupId="" paidOverride="0" paidFontKey="" url="" objUUIDs="" />
   </pinned>
   <trackedObjects>
   </trackedObjects>
