@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
   <ui_settings>
-    <left_panel collapsed="false" locked="false" password="156789" floatMode="true" />
+    <left_panel collapsed="false" locked="false" password="" floatMode="true" />
     <object_tracker enabled="false" />
     <transform_space value="local" />
     <drag_locked value="false" />
   </ui_settings>
-  <camera px="-27.61979261425791" py="13.204717547814047" pz="98.96585546062234" tx="-1.5160648471239158" ty="2.0731683416467686" tz="6.857194635241639" />
+  <camera px="-5.825725871500016" py="-27.810758680464808" pz="109.29365036944776" tx="-1.5160648471239158" ty="2.0731683416467686" tz="6.857194635241639" />
   <groups>
     <group id="GRP_1785552802547" name="Group 1" op="sub" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
   </groups>
@@ -53,7 +53,7 @@
     </object>
     <object uuid="05e2d956-1488-486b-b4a8-54171972a2af" name="holes" type="cylinder" gID="GRP_1785552802547" order="2">
       <color>3718648</color>
-      <pos x="-16.943459153383778" y="21.12797057693338" z="-3.552713678800501e-15" />
+      <pos x="-16.005128997852008" y="21.12797057693338" z="-3.552713678800501e-15" />
       <rot x="1.5707963267948966" y="0" z="0" />
       <sca x="1" y="1" z="1" />
       <uniformScale>true</uniformScale>
@@ -89,11 +89,13 @@
   <pinnedGroups>
   </pinnedGroups>
   <pinned>
-    <pin id="30af17fa-ff96-431d-a436-b70dde197a60-size-text" objUUID="30af17fa-ff96-431d-a436-b70dde197a60" type="size" axis="text" label="Full naem Small" groupId="" paidOverride="0" paidFontKey="" />
-    <pin id="cb831442-04ea-493e-b0d3-48f50257fc39-size-text" objUUID="cb831442-04ea-493e-b0d3-48f50257fc39" type="size" axis="text" label="Capital 1st letter" groupId="" paidOverride="0" paidFontKey="" />
-    <pin id="cb831442-04ea-493e-b0d3-48f50257fc39-scale-x" objUUID="cb831442-04ea-493e-b0d3-48f50257fc39" type="scale" axis="x" label="Big size" groupId="" paidOverride="0" paidFontKey="" />
-    <pin id="30af17fa-ff96-431d-a436-b70dde197a60-scale-x" objUUID="30af17fa-ff96-431d-a436-b70dde197a60" type="scale" axis="x" label="small size" groupId="" paidOverride="0" paidFontKey="" />
-    <pin id="05e2d956-1488-486b-b4a8-54171972a2af-size-cornerRound" objUUID="05e2d956-1488-486b-b4a8-54171972a2af" type="size" axis="cornerRound" label="Holes position -  Direct Object click Move" groupId="" paidOverride="0" paidFontKey="" />
+    <pin id="30af17fa-ff96-431d-a436-b70dde197a60-size-text" objUUID="30af17fa-ff96-431d-a436-b70dde197a60" type="size" axis="text" label="Full naem Small" groupId="" paidOverride="0" paidFontKey="" url="" objUUIDs="" />
+    <pin id="cb831442-04ea-493e-b0d3-48f50257fc39-size-text" objUUID="cb831442-04ea-493e-b0d3-48f50257fc39" type="size" axis="text" label="Capital 1st letter" groupId="" paidOverride="0" paidFontKey="" url="" objUUIDs="" />
+    <pin id="cb831442-04ea-493e-b0d3-48f50257fc39-scale-x" objUUID="cb831442-04ea-493e-b0d3-48f50257fc39" type="scale" axis="x" label="Big size" groupId="" paidOverride="0" paidFontKey="" url="" objUUIDs="" />
+    <pin id="30af17fa-ff96-431d-a436-b70dde197a60-scale-x" objUUID="30af17fa-ff96-431d-a436-b70dde197a60" type="scale" axis="x" label="small size" groupId="" paidOverride="0" paidFontKey="" url="" objUUIDs="" />
+    <pin id="30af17fa-ff96-431d-a436-b70dde197a60-objectSelect" objUUID="30af17fa-ff96-431d-a436-b70dde197a60" type="objectSelect" axis="select" label="select small letter for change postion" groupId="" paidOverride="0" paidFontKey="" url="" objUUIDs="30af17fa-ff96-431d-a436-b70dde197a60" />
+    <pin id="05e2d956-1488-486b-b4a8-54171972a2af-objectSelect" objUUID="05e2d956-1488-486b-b4a8-54171972a2af" type="objectSelect" axis="select" label="Select hole for change position" groupId="" paidOverride="0" paidFontKey="" url="" objUUIDs="05e2d956-1488-486b-b4a8-54171972a2af" />
+    <pin id="05e2d956-1488-486b-b4a8-54171972a2af-size-r" objUUID="05e2d956-1488-486b-b4a8-54171972a2af" type="size" axis="r" label="Hole size (R)" groupId="" paidOverride="0" paidFontKey="" url="" objUUIDs="" />
   </pinned>
   <trackedObjects>
   </trackedObjects>
