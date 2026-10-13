@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <ui_settings>
+    <left_panel collapsed="false" locked="false" password="" floatMode="true" />
+    <object_tracker enabled="false" />
+    <transform_space value="local" />
+    <drag_locked value="false" />
+  </ui_settings>
+  <camera px="74.15334412204308" py="68.70798105032611" pz="11.262837942770892" tx="-10.732516062897425" ty="-35.63426190793745" tz="-4.792751010063077" />
+  <groups>
+    <group id="GRP_1791867413997" name="Group 1" op="sub" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
+    <group id="GRP_1791869617312" name="Group 2" op="sub" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
+  </groups>
+  <topLevelOrder>
+    <entry type="layer" uuid="40a1108d-5b60-47a5-9549-4ab73d70f5c3" />
+    <entry type="layer" uuid="dc563feb-a968-4c97-8bf8-cf3caf9d57ce" />
+    <entry type="group" id="GRP_1791867413997" />
+    <entry type="layer" uuid="1e7c3453-f6c9-4314-abf8-43cc9c2a6bbe" />
+    <entry type="group" id="GRP_1791869617312" />
+  </topLevelOrder>
+  <childOrder groupId="GRP_1791867413997">
+    <entry type="layer" uuid="c579b005-3742-4322-a42b-cd2da7250b2f" />
+    <entry type="layer" uuid="27dd60ec-274e-4bf7-87f2-797724b2876b" />
+    <entry type="layer" uuid="23e793f1-3f04-4dac-b24a-278966a1276f" />
+  </childOrder>
+  <childOrder groupId="GRP_1791869617312">
+    <entry type="layer" uuid="42ab125b-d0dc-4d9b-a569-b3dfb425eb9b" />
+    <entry type="layer" uuid="ba4946ff-e2b1-43ea-b59e-acd8994afa1e" />
+  </childOrder>
+  <objects>
+    <object uuid="c579b005-3742-4322-a42b-cd2da7250b2f" name="top base" type="cylinder" gID="GRP_1791867413997" order="0">
+      <color>16347926</color>
+      <pos x="0" y="0" z="0" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>true</uniformScale>
+      <extrude enabled="true" multi="true">
+        <step axis="+Y" amount="0.4" formula="=Box_224.dd" />
+      </extrude>
+      <offset x="0" y="0" z="0" />
+      <params>{"r":25,"h":"0.1","cornerRound":0,"cornerRoundMode":"all"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"r":"=Box_224.dw/2","h":null},"font":null,"extrude":{"amount":null,"amount_0":"=Box_224.dd"},"array":{}}</formulas>
+      <visible>false</visible>
+      <locked>false</locked>
+      <fontKey>helvetiker</fontKey>
+    </object>
+    <object uuid="40a1108d-5b60-47a5-9549-4ab73d70f5c3" name="Box_224" type="box" gID="" order="1">
+      <color>9183700</color>
+      <pos x="-340.44365921875146" y="0" z="0" />
+      <rot x="1.5707963267948966" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>true</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{"w":50,"h":"3","d":"0.4","cornerRound":0,"cornerRoundMode":"all"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"h":null,"d":null},"font":null,"extrude":{"amount":null},"array":{}}</formulas>
+      <visible>true</visible>
+      <locked>false</locked>
+      <fontKey>helvetiker</fontKey>
+    </object>
+    <object uuid="42ab125b-d0dc-4d9b-a569-b3dfb425eb9b" name="buttom base" type="cylinder" gID="GRP_1791869617312" order="2">
+      <color>44354</color>
+      <pos x="0" y="0" z="0" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>true</uniformScale>
+      <extrude enabled="true" multi="true">
+        <step axis="-Y" amount="1.5" formula="=Box_224.dh/2" />
+      </extrude>
+      <offset x="0" y="0" z="0" />
+      <params>{"r":25,"h":"0.1","cornerRound":0,"cornerRoundMode":"all"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"r":"=Box_224.dw/2","h":null},"font":null,"extrude":{"amount":null,"amount_0":"=Box_224.dh/2"},"array":{}}</formulas>
+      <visible>false</visible>
+      <locked>false</locked>
+      <fontKey>helvetiker</fontKey>
+    </object>
+    <object uuid="dc563feb-a968-4c97-8bf8-cf3caf9d57ce" name="main text" type="text" gID="" order="3">
+      <color>16777215</color>
+      <pos x="2.0931108229567243" y="-8.326672684688674e-16" z="-0.6359588384152912" />
+      <rot x="-1.570796326794897" y="0" z="1.5707963267948966" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>true</uniformScale>
+      <extrude enabled="true" multi="true">
+        <step axis="+Z" amount="0.8" formula="=Box_224.dd+text height.dw" />
+      </extrude>
+      <offset x="0" y="0" z="0" />
+      <params>{"text":"Kumar","size":"15","height":0.1}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"text":null,"size":null,"height":null},"font":null,"extrude":{"amount":null,"amount_0":"=Box_224.dd+text height.dw"},"array":{},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
+      <visible>true</visible>
+      <locked>false</locked>
+      <fontKey>dancing_canvas</fontKey>
+      <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
+    </object>
+    <object uuid="27dd60ec-274e-4bf7-87f2-797724b2876b" name="big text" type="text" gID="GRP_1791867413997" order="4">
+      <color>16777215</color>
+      <pos x="5.551115123125783e-17" y="1.5" z="-0.35741620273104147" />
+      <rot x="-1.570796326794897" y="0" z="1.5707963267948966" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>true</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{"text":"K","size":"30","height":"5"}</params>
+      <formulas>{"pos":{"x":null,"y":"=Box_224.dh/2","z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"text":"=main text.Tt.1","size":null,"height":null},"font":null,"extrude":{"amount":null},"array":{},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
+      <visible>false</visible>
+      <locked>false</locked>
+      <fontKey>bold3d</fontKey>
+      <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
+    </object>
+    <object uuid="1e7c3453-f6c9-4314-abf8-43cc9c2a6bbe" name="text height" type="box" gID="" order="5">
+      <color>15680580</color>
+      <pos x="0" y="0" z="0" />
+      <rot x="1.5707963267948966" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>true</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{"w":"0.4","h":"3","d":50,"cornerRound":0,"cornerRoundMode":"all"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"w":null,"h":null},"font":null,"extrude":{"amount":null},"array":{}}</formulas>
+      <visible>false</visible>
+      <locked>false</locked>
+      <fontKey>helvetiker</fontKey>
+    </object>
+    <object uuid="ba4946ff-e2b1-43ea-b59e-acd8994afa1e" name="hole" type="cylinder" gID="GRP_1791869617312" order="6">
+      <color>16347926</color>
+      <pos x="-21.595769396422476" y="0" z="1.7002953922382726" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>true</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{"r":1.5,"h":60,"cornerRound":0,"cornerRoundMode":"all"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"r":"=text height.dh/2"},"font":null,"extrude":{"amount":null},"array":{}}</formulas>
+      <visible>false</visible>
+      <locked>false</locked>
+      <fontKey>helvetiker</fontKey>
+    </object>
+    <object uuid="23e793f1-3f04-4dac-b24a-278966a1276f" name="hole_Dup_306" type="cylinder" gID="GRP_1791867413997" order="7">
+      <color>16347926</color>
+      <pos x="-21.595769396422476" y="0" z="1.7002953922382726" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>true</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{"r":1.5,"h":60,"cornerRound":0,"cornerRoundMode":"all"}</params>
+      <formulas>{"pos":{"x":"=hole.Mx","y":"=hole.My","z":"=hole.Mz"},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"r":"=text height.dh/2"},"font":null,"extrude":{"amount":null},"array":{}}</formulas>
+      <visible>false</visible>
+      <locked>false</locked>
+      <fontKey>helvetiker</fontKey>
+    </object>
+  </objects>
+  <pinnedGroups>
+    <group id="GRP_1791869780904" name="Base" pins="40a1108d-5b60-47a5-9549-4ab73d70f5c3-size-w,40a1108d-5b60-47a5-9549-4ab73d70f5c3-size-h" />
+    <group id="GRP_1791869791176" name="Small Name" pins="dc563feb-a968-4c97-8bf8-cf3caf9d57ce-size-text,dc563feb-a968-4c97-8bf8-cf3caf9d57ce-size-size,1e7c3453-f6c9-4314-abf8-43cc9c2a6bbe-size-w,dc563feb-a968-4c97-8bf8-cf3caf9d57ce-objectSelect,dc563feb-a968-4c97-8bf8-cf3caf9d57ce-font" />
+    <group id="GRP_1791869871393" name="Big Text" pins="27dd60ec-274e-4bf7-87f2-797724b2876b-size-size,40a1108d-5b60-47a5-9549-4ab73d70f5c3-size-d,27dd60ec-274e-4bf7-87f2-797724b2876b-objectSelect,27dd60ec-274e-4bf7-87f2-797724b2876b-font" />
+  </pinnedGroups>
+  <pinned>
+    <pin id="40a1108d-5b60-47a5-9549-4ab73d70f5c3-size-w" objUUID="40a1108d-5b60-47a5-9549-4ab73d70f5c3" type="size" axis="w" label="base dia" groupId="GRP_1791869780904" paidOverride="0" paidFontKey="" url="" objUUIDs="" />
+    <pin id="40a1108d-5b60-47a5-9549-4ab73d70f5c3-size-h" objUUID="40a1108d-5b60-47a5-9549-4ab73d70f5c3" type="size" axis="h" label="Base height" groupId="GRP_1791869780904" paidOverride="0" paidFontKey="" url="" objUUIDs="" />
+    <pin id="dc563feb-a968-4c97-8bf8-cf3caf9d57ce-size-text" objUUID="dc563feb-a968-4c97-8bf8-cf3caf9d57ce" type="size" axis="text" label="text" groupId="GRP_1791869791176" paidOverride="0" paidFontKey="" url="" objUUIDs="" />
+    <pin id="dc563feb-a968-4c97-8bf8-cf3caf9d57ce-size-size" objUUID="dc563feb-a968-4c97-8bf8-cf3caf9d57ce" type="size" axis="size" label="full name  size" groupId="GRP_1791869791176" paidOverride="0" paidFontKey="" url="" objUUIDs="" />
+    <pin id="40a1108d-5b60-47a5-9549-4ab73d70f5c3-size-d" objUUID="40a1108d-5b60-47a5-9549-4ab73d70f5c3" type="size" axis="d" label="big text cut depth" groupId="GRP_1791869871393" paidOverride="0" paidFontKey="" url="" objUUIDs="" />
+    <pin id="1e7c3453-f6c9-4314-abf8-43cc9c2a6bbe-size-w" objUUID="1e7c3453-f6c9-4314-abf8-43cc9c2a6bbe" type="size" axis="w" label="main text heigt" groupId="GRP_1791869791176" paidOverride="0" paidFontKey="" url="" objUUIDs="" />
+    <pin id="dc563feb-a968-4c97-8bf8-cf3caf9d57ce-objectSelect" objUUID="dc563feb-a968-4c97-8bf8-cf3caf9d57ce" type="objectSelect" axis="select" label="Select full name" groupId="GRP_1791869791176" paidOverride="0" paidFontKey="" url="" objUUIDs="dc563feb-a968-4c97-8bf8-cf3caf9d57ce" />
+    <pin id="27dd60ec-274e-4bf7-87f2-797724b2876b-size-size" objUUID="27dd60ec-274e-4bf7-87f2-797724b2876b" type="size" axis="size" label="Big text size" groupId="GRP_1791869871393" paidOverride="0" paidFontKey="" url="" objUUIDs="" />
+    <pin id="1e7c3453-f6c9-4314-abf8-43cc9c2a6bbe-size-h" objUUID="1e7c3453-f6c9-4314-abf8-43cc9c2a6bbe" type="size" axis="h" label="hole size" groupId="" paidOverride="0" paidFontKey="" url="" objUUIDs="" />
+    <pin id="ba4946ff-e2b1-43ea-b59e-acd8994afa1e-objectSelect" objUUID="ba4946ff-e2b1-43ea-b59e-acd8994afa1e" type="objectSelect" axis="select" label="Select hole for change position" groupId="" paidOverride="0" paidFontKey="" url="" objUUIDs="ba4946ff-e2b1-43ea-b59e-acd8994afa1e" />
+    <pin id="27dd60ec-274e-4bf7-87f2-797724b2876b-objectSelect" objUUID="27dd60ec-274e-4bf7-87f2-797724b2876b" type="objectSelect" axis="select" label="Select big text" groupId="GRP_1791869871393" paidOverride="0" paidFontKey="" url="" objUUIDs="27dd60ec-274e-4bf7-87f2-797724b2876b" />
+    <pin id="dc563feb-a968-4c97-8bf8-cf3caf9d57ce-font" objUUID="dc563feb-a968-4c97-8bf8-cf3caf9d57ce" type="font" axis="fontKey" label="Name font" groupId="GRP_1791869791176" paidOverride="0" paidFontKey="dancing_canvas" url="" objUUIDs="" />
+    <pin id="27dd60ec-274e-4bf7-87f2-797724b2876b-font" objUUID="27dd60ec-274e-4bf7-87f2-797724b2876b" type="font" axis="fontKey" label="big text_Font" groupId="GRP_1791869871393" paidOverride="0" paidFontKey="" url="" objUUIDs="" />
+    <pin id="linkbtn-1791870009354-135" objUUID="null" type="linkButton" axis="link" label="must click refresh button" groupId="" paidOverride="0" paidFontKey="" url="" objUUIDs="" />
+  </pinned>
+  <trackedObjects>
+  </trackedObjects>
+  <trackedGroups>
+  </trackedGroups>
+  <hiddenSelectorLabel>Ticked Object Selector</hiddenSelectorLabel>
+  <objectDisplayNames>
+    <displayName uuid="c579b005-3742-4322-a42b-cd2da7250b2f" name="top base" />
+    <displayName uuid="40a1108d-5b60-47a5-9549-4ab73d70f5c3" name="Box_224" />
+    <displayName uuid="42ab125b-d0dc-4d9b-a569-b3dfb425eb9b" name="buttom base" />
+    <displayName uuid="dc563feb-a968-4c97-8bf8-cf3caf9d57ce" name="main text" />
+    <displayName uuid="27dd60ec-274e-4bf7-87f2-797724b2876b" name="big text" />
+    <displayName uuid="1e7c3453-f6c9-4314-abf8-43cc9c2a6bbe" name="text height" />
+    <displayName uuid="ba4946ff-e2b1-43ea-b59e-acd8994afa1e" name="hole" />
+    <displayName uuid="23e793f1-3f04-4dac-b24a-278966a1276f" name="hole_Dup_306" />
+  </objectDisplayNames>
+  <registeredPlugins>
+  </registeredPlugins>
+</project>
