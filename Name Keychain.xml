@@ -6,7 +6,7 @@
     <transform_space value="local" />
     <drag_locked value="false" />
   </ui_settings>
-  <camera px="-25.83596922899971" py="77.75896717807102" pz="22.552433751791465" tx="-1.4152104351842207" ty="1.561334194508934e-7" tz="-22.82854017870005" />
+  <camera px="-11.753591720486419" py="137.67947871999743" pz="23.38988879064108" tx="-1.8699136315362705" ty="-7.592335984192601" tz="-3.1928907435028098" />
   <groups>
     <group id="GRP_1793173120167" name="Group 1" op="sub" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
   </groups>
@@ -114,6 +114,7 @@
     <pin id="1d079b40-e96b-435f-8ccb-1ad003bd7c7b-size-h" objUUID="1d079b40-e96b-435f-8ccb-1ad003bd7c7b" type="size" axis="h" label="Ring thick" groupId="" paidOverride="0" paidFontKey="" url="" objUUIDs="" />
     <pin id="1d079b40-e96b-435f-8ccb-1ad003bd7c7b-size-d" objUUID="1d079b40-e96b-435f-8ccb-1ad003bd7c7b" type="size" axis="d" label="Ring outer dia" groupId="" paidOverride="0" paidFontKey="" url="" objUUIDs="" />
     <pin id="2a40ced6-aee9-46de-8a64-ddf93c050754-size-height" objUUID="2a40ced6-aee9-46de-8a64-ddf93c050754" type="size" axis="height" label="Ring height" groupId="" paidOverride="0" paidFontKey="" url="" objUUIDs="" />
+    <pin id="linkbtn-1793415139288-731" objUUID="null" type="linkButton" axis="link" label="Tutorial" groupId="" paidOverride="0" paidFontKey="" url="https://youtu.be/52jSLxaJWPY" objUUIDs="" />
   </pinned>
   <trackedObjects>
   </trackedObjects>
