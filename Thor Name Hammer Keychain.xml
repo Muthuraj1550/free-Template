@@ -6,9 +6,9 @@
     <transform_space value="local" />
     <drag_locked value="false" />
   </ui_settings>
-  <camera px="171.6316618021502" py="35.18084617437884" pz="-1.984176785345551" tx="3.167244598956144" ty="29.523542643812092" tz="-1.9843537826759519" />
+  <camera px="155.20638112484133" py="34.629259080148664" pz="-1.984194042585265" tx="3.167244598956144" ty="29.523542643812092" tz="-1.9843537826759519" />
   <groups>
-    <group id="GRP_1793500392820" name="Hammer" op="add" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
+    <group id="GRP_1793500392820" name="Hammer" op="sub" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
     <group id="GRP_1793502356995" name="Group 2" op="sub" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
   </groups>
   <topLevelOrder>
@@ -36,7 +36,7 @@
       <offset x="0" y="0" z="0" />
       <params>{}</params>
       <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{},"extrude":{"amount":null},"array":{}}</formulas>
-      <visible>true</visible>
+      <visible>false</visible>
       <locked>false</locked>
       <fontKey>helvetiker</fontKey>
       <stlUrl>https://raw.githubusercontent.com/Muthuraj1550/3d/2282b8d7055fa9a02e339522c2d8c531e1f59d80/thor%20hamer%20head</stlUrl>
@@ -53,7 +53,7 @@
       <offset x="0" y="0" z="0" />
       <params>{"text":"Guna","size":"8","height":"2"}</params>
       <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"text":null,"size":null,"height":null},"font":null,"extrude":{"amount":null,"amount_0":null},"array":{},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
-      <visible>true</visible>
+      <visible>false</visible>
       <locked>false</locked>
       <fontKey>bold3d</fontKey>
       <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
