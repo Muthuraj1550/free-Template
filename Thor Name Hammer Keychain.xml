@@ -6,7 +6,7 @@
     <transform_space value="local" />
     <drag_locked value="false" />
   </ui_settings>
-  <camera px="105.58803649702615" py="17.25655665242057" pz="-20.64644840696536" tx="3.9115291143284554" ty="28.300305871827813" tz="8.0882328399973" />
+  <camera px="171.6316618021502" py="35.18084617437884" pz="-1.984176785345551" tx="3.167244598956144" ty="29.523542643812092" tz="-1.9843537826759519" />
   <groups>
     <group id="GRP_1793500392820" name="Hammer" op="add" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
     <group id="GRP_1793502356995" name="Group 2" op="sub" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
@@ -75,7 +75,7 @@
     </object>
     <object uuid="8478d736-eb78-48d8-a263-a10d5afba8aa" name="Link_STL_297" type="stl" gID="GRP_1793502356995" order="3">
       <color>1327682</color>
-      <pos x="0" y="31.45996602469765" z="0.8239310771829693" />
+      <pos x="0" y="31.47397106001017" z="-50.065457558800496" />
       <rot x="0" y="0" z="0" />
       <sca x="1" y="1" z="1" />
       <uniformScale>true</uniformScale>
@@ -90,7 +90,7 @@
     </object>
     <object uuid="946f1d84-dae7-457a-80b4-c12008f37473" name="hole" type="cylinder" gID="GRP_1793502356995" order="4">
       <color>16347926</color>
-      <pos x="1.0658141036401503e-14" y="58.073006759771616" z="0.8112949659822135" />
+      <pos x="1.0658141036401503e-14" y="58.08701179508414" z="-50.07809367000125" />
       <rot x="0" y="0" z="1.5707963267948963" />
       <sca x="1" y="1" z="1" />
       <uniformScale>true</uniformScale>
