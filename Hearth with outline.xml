@@ -6,7 +6,7 @@
     <transform_space value="local" />
     <drag_locked value="false" />
   </ui_settings>
-  <camera px="400" py="399.99999999999994" pz="400.00000000000006" tx="-0.00099945068359375" ty="0.0084991455078125" tz="0.5" />
+  <camera px="-10.325935232276896" py="2.3763662191633075" pz="98.54235991537169" tx="-0.00099945068359375" ty="0.0084991455078125" tz="0.5" />
   <groups>
     <group id="GRP_1772176722785" name="Group 1" op="sub" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
   </groups>
@@ -37,7 +37,7 @@
     </object>
     <object uuid="18213bd4-71b6-45d8-b30d-bf0a8e17ae77" name="Text_15" type="text" gID="" order="1">
       <color>16777215</color>
-      <pos x="0" y="8.366637195247502" z="0" />
+      <pos x="0" y="6.349668917702974" z="0" />
       <rot x="0" y="0" z="0" />
       <sca x="1" y="1" z="1" />
       <uniformScale>false</uniformScale>
@@ -49,12 +49,12 @@
       <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":null,"height":null,"text":null},"font":null,"extrude":{"amount":null},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null},"array":{},"dim":{"x":null,"y":null,"z":null}}</formulas>
       <visible>true</visible>
       <locked>false</locked>
-      <fontKey>satisfy</fontKey>
+      <fontKey>cinzel_canvas</fontKey>
       <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
     </object>
     <object uuid="734c3973-7812-4c19-be94-b305b81343ff" name="Text_15_Dup_193" type="text" gID="" order="2">
       <color>16777215</color>
-      <pos x="0" y="-7.162130543816099" z="0" />
+      <pos x="0" y="-5.674160652364577" z="0" />
       <rot x="0" y="0" z="0" />
       <sca x="1" y="1" z="1" />
       <uniformScale>false</uniformScale>
@@ -66,7 +66,7 @@
       <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":null,"height":null,"text":null},"font":null,"extrude":{"amount":null},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null},"array":{},"dim":{"x":null,"y":null,"z":null}}</formulas>
       <visible>true</visible>
       <locked>false</locked>
-      <fontKey>satisfy</fontKey>
+      <fontKey>cinzel_canvas</fontKey>
       <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
     </object>
     <object uuid="f83972b8-cea8-452f-84e6-df18b9509f8b" name="Cylinder_69" type="cylinder" gID="GRP_1772176722785" order="3">
