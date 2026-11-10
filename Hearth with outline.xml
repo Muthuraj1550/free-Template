@@ -6,7 +6,7 @@
     <transform_space value="local" />
     <drag_locked value="false" />
   </ui_settings>
-  <camera px="-10.325935232276896" py="2.3763662191633075" pz="98.54235991537169" tx="-0.00099945068359375" ty="0.0084991455078125" tz="0.5" />
+  <camera px="-46.29799619541087" py="10.02769531132592" pz="87.43040133551885" tx="-7.6376021738050115" ty="2.4218413012152302" tz="-2.9689368811898795" />
   <groups>
     <group id="GRP_1772176722785" name="Group 1" op="sub" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
   </groups>
@@ -84,7 +84,7 @@
       <fontKey>helvetiker</fontKey>
     </object>
     <object uuid="dff8be74-0114-47f6-a7fe-9f1126bf8414" name="Heart_39_Stroke" type="stl" gID="" order="4">
-      <color>16777215</color>
+      <color>16753152</color>
       <pos x="-0.00099945068359375" y="0.0084991455078125" z="0" />
       <rot x="0" y="0" z="0" />
       <sca x="1" y="1" z="1" />
